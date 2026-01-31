@@ -53,7 +53,7 @@ def main():
 
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
 
-    players_data = load_latest_json('american_players_*.json')
+    players_data = load_latest_json('american_players_2*.json')  # Excludes summary files
     hometowns_data = load_latest_json('american_hometowns_found_*.json')
     schedule_data = load_latest_json('schedule_*.json')
 
@@ -72,42 +72,58 @@ def main():
                 hometown_lookup[code] = p
         logger.info(f"Loaded {len(hometown_lookup)} hometown records")
 
+    # Build all games by team (both past and upcoming)
+    past_by_team = {}
     upcoming_by_team = {}
     if schedule_data:
         for game in schedule_data.get('games', []):
-            if not game.get('played'):
-                home_team = game.get('home_team')
-                away_team = game.get('away_team')
+            home_team = game.get('home_team')
+            away_team = game.get('away_team')
+            played = game.get('played', False)
 
-                game_info = {
-                    'date': game.get('date'),
-                    'round': game.get('round'),
-                    'venue': game.get('venue'),
-                    'home_team': home_team,
-                    'away_team': away_team,
-                }
+            game_info = {
+                'date': game.get('date'),
+                'round': game.get('round'),
+                'venue': game.get('venue'),
+                'home_team': home_team,
+                'away_team': away_team,
+                'home_score': game.get('home_score'),
+                'away_score': game.get('away_score'),
+                'played': played,
+            }
 
-                if home_team:
-                    if home_team not in upcoming_by_team:
-                        upcoming_by_team[home_team] = []
-                    upcoming_by_team[home_team].append({
-                        **game_info,
-                        'opponent': away_team,
-                        'home_away': 'Home',
-                    })
+            target_dict = past_by_team if played else upcoming_by_team
 
-                if away_team:
-                    if away_team not in upcoming_by_team:
-                        upcoming_by_team[away_team] = []
-                    upcoming_by_team[away_team].append({
-                        **game_info,
-                        'opponent': home_team,
-                        'home_away': 'Away',
-                    })
+            if home_team:
+                if home_team not in target_dict:
+                    target_dict[home_team] = []
+                target_dict[home_team].append({
+                    **game_info,
+                    'opponent': away_team,
+                    'home_away': 'Home',
+                    'team_score': game.get('home_score'),
+                    'opponent_score': game.get('away_score'),
+                    'result': 'W' if played and game.get('home_score', 0) > game.get('away_score', 0) else ('L' if played else None),
+                })
 
+            if away_team:
+                if away_team not in target_dict:
+                    target_dict[away_team] = []
+                target_dict[away_team].append({
+                    **game_info,
+                    'opponent': home_team,
+                    'home_away': 'Away',
+                    'team_score': game.get('away_score'),
+                    'opponent_score': game.get('home_score'),
+                    'result': 'W' if played and game.get('away_score', 0) > game.get('home_score', 0) else ('L' if played else None),
+                })
+
+        for team in past_by_team:
+            past_by_team[team].sort(key=lambda x: x.get('date', ''), reverse=True)
         for team in upcoming_by_team:
             upcoming_by_team[team].sort(key=lambda x: x.get('date', ''))
 
+        logger.info(f"Built past games for {len(past_by_team)} teams")
         logger.info(f"Built upcoming games for {len(upcoming_by_team)} teams")
 
     unified_players = []
@@ -116,7 +132,8 @@ def main():
         code = player.get('code')
         hometown = hometown_lookup.get(code, {})
         team_name = player.get('team_name')
-        upcoming_games = upcoming_by_team.get(team_name, [])[:10]
+        past_games = past_by_team.get(team_name, [])
+        upcoming_games = upcoming_by_team.get(team_name, [])
 
         unified = {
             'code': code,
@@ -148,6 +165,7 @@ def main():
             'total_rebounds': 0,
             'total_assists': 0,
             'all_games': [],
+            'past_games': past_games,
             'upcoming_games': upcoming_games,
             'season': '2025-26',
             'league': 'Turkish BSL',
