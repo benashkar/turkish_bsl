@@ -15,12 +15,10 @@ COPY . .
 
 RUN mkdir -p /app/output/json /app/logs
 
-RUN echo "=== Building: Fetching player data ===" && \
-    python daily_scraper.py && \
-    echo "=== Building: Looking up hometowns ===" && \
-    (python hometown_lookup_fixed.py || true) && \
-    echo "=== Building: Joining data ===" && \
-    python join_data.py && \
+# Use committed JSON data instead of re-scraping during build
+# GitHub Actions will refresh data daily and commit new JSON files
+RUN echo "=== Building: Using committed JSON data ===" && \
+    ls -la /app/output/json/*_latest.json 2>/dev/null || echo "No latest files" && \
     echo "=== Build complete: Data ready ==="
 
 ENV PYTHONUNBUFFERED=1

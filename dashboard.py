@@ -14,8 +14,15 @@ app = Flask(__name__)
 
 def load_latest_data():
     output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
-    files = sorted(glob(os.path.join(output_dir, 'american_players_summary_*.json')))
 
+    # First try the _latest.json file
+    latest_file = os.path.join(output_dir, 'american_players_summary_latest.json')
+    if os.path.exists(latest_file):
+        with open(latest_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+
+    # Fallback to most recent timestamped file
+    files = sorted(glob(os.path.join(output_dir, 'american_players_summary_*.json')))
     if not files:
         return {'players': [], 'export_date': 'No data'}
 
@@ -25,13 +32,19 @@ def load_latest_data():
 
 def load_player_detail(player_code):
     output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
-    files = sorted(glob(os.path.join(output_dir, 'unified_american_players_*.json')))
 
-    if not files:
-        return None
-
-    with open(files[-1], 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    # First try the _latest.json file
+    latest_file = os.path.join(output_dir, 'unified_american_players_latest.json')
+    if os.path.exists(latest_file):
+        with open(latest_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    else:
+        # Fallback to most recent timestamped file
+        files = sorted(glob(os.path.join(output_dir, 'unified_american_players_*.json')))
+        if not files:
+            return None
+        with open(files[-1], 'r', encoding='utf-8') as f:
+            data = json.load(f)
 
     for player in data.get('players', []):
         if player.get('code') == player_code:
@@ -153,7 +166,7 @@ HOME_TEMPLATE = """
 <p class="last-updated">Last updated: {{ export_date }}</p>
 
 <div class="note-box">
-    <strong>Note:</strong> Player statistics (PPG, RPG, APG) are not available in this version.
+    <strong>Note:</strong> Individual game statistics (box scores) coming soon. Currently showing team schedules and game results.
 </div>
 
 <div class="filters">
@@ -267,9 +280,45 @@ PLAYER_TEMPLATE = """
 </div>
 {% endif %}
 
+{% if player.game_log %}
+<div class="player-card">
+    <h3>Game Log</h3>
+    <table class="game-log">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Opponent</th>
+                <th>MIN</th>
+                <th>PTS</th>
+                <th>REB</th>
+                <th>AST</th>
+                <th>FG</th>
+                <th>3PT</th>
+                <th>FT</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for game in player.game_log %}
+            <tr>
+                <td>{{ game.date or 'N/A' }}</td>
+                <td>{{ game.opponent or 'N/A' }}</td>
+                <td>{{ game.minutes or '-' }}</td>
+                <td class="stats">{{ game.points or '-' }}</td>
+                <td>{{ game.rebounds or '-' }}</td>
+                <td>{{ game.assists or '-' }}</td>
+                <td>{{ (game.fg2_made or 0) + (game.fg3_made or 0) }}-{{ (game.fg2_attempted or 0) + (game.fg3_attempted or 0) }}</td>
+                <td>{{ game.fg3_made or 0 }}-{{ game.fg3_attempted or 0 }}</td>
+                <td>{{ game.ft_made or 0 }}-{{ game.ft_attempted or 0 }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endif %}
+
 {% if player.past_games %}
 <div class="player-card">
-    <h3>Past Games</h3>
+    <h3>Team Game Results</h3>
     <table class="game-log">
         <thead>
             <tr>

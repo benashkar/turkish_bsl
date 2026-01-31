@@ -209,13 +209,15 @@ def main():
 
     logger.info(f"Created {len(unified_players)} unified player records")
 
-    save_json({
+    unified_data = {
         'export_date': datetime.now().isoformat(),
         'season': '2025-26',
         'league': 'Turkish BSL',
         'player_count': len(unified_players),
         'players': unified_players
-    }, f'unified_american_players_{timestamp}.json')
+    }
+    save_json(unified_data, f'unified_american_players_{timestamp}.json')
+    save_json(unified_data, 'unified_american_players_latest.json')  # For dashboard
 
     summary_players = []
     for p in unified_players:
@@ -240,13 +242,15 @@ def main():
             'apg': p['apg'],
         })
 
-    save_json({
+    summary_data = {
         'export_date': datetime.now().isoformat(),
         'season': '2025-26',
         'league': 'Turkish BSL',
         'player_count': len(summary_players),
         'players': summary_players
-    }, f'american_players_summary_{timestamp}.json')
+    }
+    save_json(summary_data, f'american_players_summary_{timestamp}.json')
+    save_json(summary_data, 'american_players_summary_latest.json')  # For dashboard
 
     logger.info("\n" + "=" * 60)
     logger.info("SUMMARY")

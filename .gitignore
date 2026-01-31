@@ -22,3 +22,6 @@ output/json/unified_*.json
 # Keep schedule files in git (avoids rate limiting)
 !output/json/schedule_*.json
 !output/json/.gitkeep
+
+# Keep _latest.json files for dashboard (don't regenerate during build)
+!output/json/*_latest.json

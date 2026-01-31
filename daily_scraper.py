@@ -454,7 +454,7 @@ def main():
 
     logger.info(f"  Played: {len(played_games)}, Upcoming: {len(upcoming_games)}")
 
-    save_json({
+    schedule_data = {
         'export_date': datetime.now().isoformat(),
         'season': SEASON,
         'league': 'Turkish BSL',
@@ -462,7 +462,9 @@ def main():
         'played': len(played_games),
         'upcoming': len(upcoming_games),
         'games': games
-    }, f'schedule_{timestamp}.json')
+    }
+    save_json(schedule_data, f'schedule_{timestamp}.json')
+    save_json(schedule_data, 'schedule_latest.json')  # For dashboard
 
     # =========================================================================
     # Summary
