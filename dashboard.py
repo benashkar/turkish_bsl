@@ -165,9 +165,6 @@ HOME_TEMPLATE = """
 {% block content %}
 <p class="last-updated">Last updated: {{ export_date }}</p>
 
-<div class="note-box">
-    <strong>Note:</strong> Individual game statistics (box scores) coming soon. Currently showing team schedules and game results.
-</div>
 
 <div class="filters">
     <form method="GET">
@@ -203,9 +200,11 @@ HOME_TEMPLATE = """
             <th><a href="?sort=name&{{ query_string }}">Player</a></th>
             <th><a href="?sort=team&{{ query_string }}">Team</a></th>
             <th>Position</th>
-            <th>Height</th>
+            <th>GP</th>
+            <th>PPG</th>
+            <th>RPG</th>
+            <th>APG</th>
             <th>Hometown</th>
-            <th>High School</th>
             <th>College</th>
         </tr>
     </thead>
@@ -215,9 +214,11 @@ HOME_TEMPLATE = """
             <td><a href="/player/{{ player.code }}">{{ player.name }}</a></td>
             <td>{{ player.team or 'N/A' }}</td>
             <td>{{ player.position or 'N/A' }}</td>
-            <td>{% if player.height_feet %}{{ player.height_feet }}'{{ player.height_inches }}"{% else %}N/A{% endif %}</td>
+            <td>{{ player.games_played or '-' }}</td>
+            <td class="stats">{{ '%.1f'|format(player.ppg) if player.ppg else '-' }}</td>
+            <td>{{ '%.1f'|format(player.rpg) if player.rpg else '-' }}</td>
+            <td>{{ '%.1f'|format(player.apg) if player.apg else '-' }}</td>
             <td class="hometown">{{ player.hometown or 'Unknown' }}</td>
-            <td>{{ player.high_school or 'N/A' }}</td>
             <td>{{ player.college or 'N/A' }}</td>
         </tr>
         {% endfor %}
@@ -251,6 +252,16 @@ PLAYER_TEMPLATE = """
             <strong>College:</strong> {{ player.college or 'N/A' }}<br>
             <strong>High School:</strong> {{ player.high_school or 'N/A' }}
         </p>
+        {% if player.games_played %}
+        <p>
+            <strong>2025-26 Season Stats:</strong><br>
+            {{ player.games_played }} GP |
+            {{ '%.1f'|format(player.ppg) }} PPG |
+            {{ '%.1f'|format(player.rpg) }} RPG |
+            {{ '%.1f'|format(player.apg) }} APG
+            {% if player.spg %} | {{ '%.1f'|format(player.spg) }} SPG{% endif %}
+        </p>
+        {% endif %}
     </div>
 </div>
 

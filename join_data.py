@@ -35,6 +35,36 @@ def load_latest_json(pattern):
         return json.load(f)
 
 
+def load_bsl_stats():
+    """Load BSL statistics from bsl_scraper output."""
+    output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+    filepath = os.path.join(output_dir, 'bsl_american_stats_latest.json')
+
+    if not os.path.exists(filepath):
+        logger.warning("No BSL stats file found. Run bsl_scraper.py first.")
+        return {}
+
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            players = data.get('players', [])
+            logger.info(f"Loaded BSL stats for {len(players)} American players")
+
+            # Build lookup by normalized name
+            import unicodedata
+            lookup = {}
+            for p in players:
+                name = p.get('name', '')
+                # Normalize name
+                name_norm = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('ASCII')
+                name_norm = name_norm.lower().strip()
+                lookup[name_norm] = p
+            return lookup
+    except Exception as e:
+        logger.warning(f"Error loading BSL stats: {e}")
+        return {}
+
+
 def load_best_schedule():
     """Load the schedule file with the most games (handles rate limiting fallback)."""
     output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
@@ -88,6 +118,7 @@ def main():
     players_data = load_latest_json('american_players_2*.json')  # Excludes summary files
     hometowns_data = load_latest_json('american_hometowns_found_*.json')
     schedule_data = load_best_schedule()  # Uses file with most games (handles rate limit fallback)
+    bsl_stats = load_bsl_stats()  # Player stats from TBLStat.net
 
     if not players_data:
         logger.error("No player data found. Run daily_scraper.py first.")
@@ -160,6 +191,8 @@ def main():
 
     unified_players = []
 
+    import unicodedata
+
     for player in players:
         code = player.get('code')
         hometown = hometown_lookup.get(code, {})
@@ -167,9 +200,26 @@ def main():
         past_games = past_by_team.get(team_name, [])
         upcoming_games = upcoming_by_team.get(team_name, [])
 
+        # Match to BSL stats by normalized name
+        player_name = player.get('name', '')
+        name_norm = unicodedata.normalize('NFKD', player_name).encode('ASCII', 'ignore').decode('ASCII')
+        name_norm = name_norm.lower().strip()
+        player_stats = bsl_stats.get(name_norm, {})
+
+        # Extract stats from BSL data
+        games_played = player_stats.get('games', 0)
+        ppg = player_stats.get('ppg', 0.0)
+        rpg = player_stats.get('rpg', 0.0)
+        apg = player_stats.get('apg', 0.0)
+        spg = player_stats.get('spg', 0.0)
+        minutes = player_stats.get('minutes', 0.0)
+
+        if games_played > 0:
+            logger.debug(f"  Matched BSL stats for {player_name}: {ppg:.1f} PPG")
+
         unified = {
             'code': code,
-            'name': player.get('name'),
+            'name': player_name,
             'team': team_name,
             'team_code': player.get('team_code'),
             'position': player.get('position'),
@@ -189,14 +239,16 @@ def main():
             'headshot_url': player.get('headshot_url'),
             'instagram': player.get('instagram'),
             'twitter': player.get('twitter'),
-            'games_played': 0,
-            'ppg': 0.0,
-            'rpg': 0.0,
-            'apg': 0.0,
-            'total_points': 0,
-            'total_rebounds': 0,
-            'total_assists': 0,
-            'all_games': [],
+            'games_played': games_played,
+            'ppg': ppg,
+            'rpg': rpg,
+            'apg': apg,
+            'spg': spg,
+            'minutes': minutes,
+            'ft_pct': player_stats.get('ft_pct', 0),
+            'fg2_pct': player_stats.get('fg2_pct', 0),
+            'fg3_pct': player_stats.get('fg3_pct', 0),
+            'efficiency': player_stats.get('efficiency', 0),
             'past_games': past_games,
             'upcoming_games': upcoming_games,
             'season': '2025-26',
