@@ -13,5 +13,12 @@ venv/
 logs/
 .env
 .env.local
-output/json/*.json
+# Ignore most JSON files (regenerated during build)
+output/json/american_*.json
+output/json/clubs_*.json
+output/json/players_*.json
+output/json/unified_*.json
+
+# Keep schedule files in git (avoids rate limiting)
+!output/json/schedule_*.json
 !output/json/.gitkeep
