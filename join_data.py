@@ -20,6 +20,18 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+# Team name mapping: TheSportsDB name -> TBLStat name
+TEAM_NAME_MAP = {
+    'Anadolu Efes SK': 'Anadolu Efes',
+    'Bahçeşehir Koleji SK': 'Bahçeşehir Koleji',
+    'Besiktas Basketbol': 'Beşiktaş GAİN',
+    'Büyükçekmece Basketbol': 'ONVO Büyükçekmece',
+    'Fenerbahçe Basketbol': 'Fenerbahçe Beko',
+    # These match already
+    'Bursaspor Basketbol': 'Bursaspor Basketbol',
+}
+
+
 def load_latest_json(pattern):
     output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
     files = sorted(glob(os.path.join(output_dir, pattern)))
@@ -66,8 +78,22 @@ def load_bsl_stats():
 
 
 def load_best_schedule():
-    """Load the schedule file with the most games (handles rate limiting fallback)."""
+    """Load the schedule file with the most games (BSL preferred over TheSportsDB)."""
     output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+
+    # Prefer BSL schedule from TBLStat.net (more complete)
+    bsl_schedule = os.path.join(output_dir, 'bsl_schedule_latest.json')
+    if os.path.exists(bsl_schedule):
+        try:
+            with open(bsl_schedule, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                game_count = len(data.get('games', []))
+                logger.info(f"Loading BSL schedule: bsl_schedule_latest.json ({game_count} games)")
+                return data
+        except Exception as e:
+            logger.warning(f"Error reading BSL schedule: {e}")
+
+    # Fallback to TheSportsDB schedule files
     files = sorted(glob(os.path.join(output_dir, 'schedule_*.json')))
 
     if not files:
@@ -197,8 +223,10 @@ def main():
         code = player.get('code')
         hometown = hometown_lookup.get(code, {})
         team_name = player.get('team_name')
-        past_games = past_by_team.get(team_name, [])
-        upcoming_games = upcoming_by_team.get(team_name, [])
+        # Map team name to TBLStat format for schedule matching
+        mapped_team = TEAM_NAME_MAP.get(team_name, team_name)
+        past_games = past_by_team.get(mapped_team, [])
+        upcoming_games = upcoming_by_team.get(mapped_team, [])
 
         # Match to BSL stats by normalized name
         player_name = player.get('name', '')
@@ -249,6 +277,7 @@ def main():
             'fg2_pct': player_stats.get('fg2_pct', 0),
             'fg3_pct': player_stats.get('fg3_pct', 0),
             'efficiency': player_stats.get('efficiency', 0),
+            'game_log': player_stats.get('game_log', []),  # Individual game stats from TBLStat
             'past_games': past_games,
             'upcoming_games': upcoming_games,
             'season': '2025-26',

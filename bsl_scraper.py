@@ -224,6 +224,223 @@ def load_existing_players():
     return {}
 
 
+# Turkish month names to numbers
+TURKISH_MONTHS = {
+    'ocak': '01', 'şubat': '02', 'mart': '03', 'nisan': '04',
+    'mayıs': '05', 'haziran': '06', 'temmuz': '07', 'ağustos': '08',
+    'eylül': '09', 'ekim': '10', 'kasım': '11', 'aralık': '12',
+    'oca': '01', 'sub': '02', 'şub': '02', 'mar': '03', 'nis': '04',
+    'may': '05', 'haz': '06', 'tem': '07', 'agu': '08', 'ağu': '08',
+    'eyl': '09', 'eki': '10', 'kas': '11', 'ara': '12',
+}
+
+
+def parse_turkish_date(date_str):
+    """Convert Turkish date like '28 Eylül 2025' to '2025-09-28'."""
+    if not date_str:
+        return None
+
+    # Clean and lowercase
+    date_str = date_str.lower().strip()
+
+    # Try to extract parts
+    parts = date_str.split()
+    if len(parts) >= 3:
+        day = parts[0].zfill(2)
+        month_name = parts[1]
+        year = parts[2]
+
+        # Find month number
+        month = None
+        for tk_month, num in TURKISH_MONTHS.items():
+            if tk_month in month_name:
+                month = num
+                break
+
+        if month and day.isdigit() and year.isdigit():
+            return f"{year}-{month}-{day.zfill(2)}"
+
+    return None
+
+
+def fetch_schedule():
+    """Fetch full schedule from TBLStat.net games page."""
+    url = f"{BASE_URL}/games/{SEASON_CODE}"
+    logger.info(f"Fetching schedule from: {url}")
+
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        games = []
+
+        # Find all game links
+        links = soup.find_all('a', onclick=True)
+        game_ids = []
+        for link in links:
+            onclick = str(link.get('onclick', ''))
+            match = re.search(r"game/(\d+)", onclick)
+            if match:
+                game_ids.append(match.group(1))
+
+        game_ids = list(set(game_ids))  # Remove duplicates
+        logger.info(f"Found {len(game_ids)} games, fetching details...")
+
+        # Fetch each game's details (all games to capture upcoming)
+        for i, game_id in enumerate(game_ids):
+            if i > 0 and i % 20 == 0:
+                logger.info(f"  Progress: {i}/{len(game_ids)}")
+
+            game_data = fetch_game_details(game_id)
+            if game_data:
+                games.append(game_data)
+            time.sleep(0.3)
+
+        logger.info(f"Fetched details for {len(games)} games")
+        return games
+
+    except requests.RequestException as e:
+        logger.error(f"Error fetching schedule: {e}")
+        return []
+
+
+def fetch_game_details(game_id):
+    """Fetch details for a specific game including box score."""
+    url = f"{BASE_URL}/game/{game_id}"
+
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        game = {'game_id': game_id}
+
+        # Parse title for teams and date
+        # Format: "Team1 vs. Team2 | DD Month YYYY..."
+        h1 = soup.find('h1')
+        if h1:
+            title = h1.get_text(strip=True)
+            # Extract teams
+            if ' vs. ' in title:
+                teams_part = title.split('|')[0].strip()
+                teams = teams_part.split(' vs. ')
+                if len(teams) == 2:
+                    game['home_team'] = teams[0].strip()
+                    game['away_team'] = teams[1].strip()
+
+            # Extract date
+            if '|' in title:
+                date_part = title.split('|')[1].strip()
+                # Date is usually at the start of this part
+                date_match = re.search(r'(\d{1,2}\s+\w+\s+\d{4})', date_part)
+                if date_match:
+                    game['date'] = parse_turkish_date(date_match.group(1))
+
+        # Get scores from tables (first row sums)
+        tables = soup.find_all('table')
+        if len(tables) >= 2:
+            # Get team totals (last row of each table usually)
+            for i, table in enumerate(tables[:2]):
+                rows = table.find_all('tr')
+                if rows:
+                    # Find total row or last data row
+                    for row in rows:
+                        cells = [td.get_text(strip=True) for td in row.find_all(['td', 'th'])]
+                        if cells and cells[0].lower() in ['toplam', 'total', '']:
+                            # This might be the totals row
+                            if len(cells) > 2 and cells[2].isdigit():
+                                if i == 0:
+                                    game['home_score'] = int(cells[2])
+                                else:
+                                    game['away_score'] = int(cells[2])
+
+        # Determine if game is played
+        game['played'] = bool(game.get('home_score') and game.get('away_score'))
+
+        # Get box score player stats
+        game['box_score'] = []
+        for table in tables[:2]:
+            team_idx = tables.index(table)
+            team_name = game.get('home_team') if team_idx == 0 else game.get('away_team')
+
+            rows = table.find_all('tr')[1:]  # Skip header
+            for row in rows:
+                cells = [td.get_text(strip=True) for td in row.find_all(['td', 'th'])]
+                if len(cells) >= 8 and cells[0] and cells[0].lower() not in ['toplam', 'total', '']:
+                    player_stat = {
+                        'name': cells[0],
+                        'team': team_name,
+                        'minutes': cells[1] if len(cells) > 1 else None,
+                        'points': int(cells[2]) if len(cells) > 2 and cells[2].isdigit() else 0,
+                        'rebounds': int(cells[3]) if len(cells) > 3 and cells[3].isdigit() else 0,
+                        'assists': int(cells[4]) if len(cells) > 4 and cells[4].isdigit() else 0,
+                        'steals': int(cells[5]) if len(cells) > 5 and cells[5].isdigit() else 0,
+                        'turnovers': int(cells[6]) if len(cells) > 6 and cells[6].isdigit() else 0,
+                        'efficiency': int(cells[7]) if len(cells) > 7 and cells[7].lstrip('-').isdigit() else 0,
+                    }
+                    game['box_score'].append(player_stat)
+
+        return game
+
+    except requests.RequestException as e:
+        logger.debug(f"Error fetching game {game_id}: {e}")
+        return None
+
+
+def build_player_game_logs(games, american_names):
+    """Build game-by-game logs for American players from box scores."""
+    game_logs = {}  # player_name -> list of game stats
+
+    for game in games:
+        if not game.get('box_score'):
+            continue
+
+        game_date = game.get('date')
+        home_team = game.get('home_team')
+        away_team = game.get('away_team')
+
+        for stat in game['box_score']:
+            player_name = stat.get('name', '')
+            norm_name = normalize_name(player_name)
+
+            # Check if American
+            if norm_name not in american_names:
+                continue
+
+            # Determine opponent
+            player_team = stat.get('team')
+            if player_team == home_team:
+                opponent = away_team
+                home_away = 'Home'
+            else:
+                opponent = home_team
+                home_away = 'Away'
+
+            game_entry = {
+                'date': game_date,
+                'opponent': opponent,
+                'home_away': home_away,
+                'minutes': stat.get('minutes'),
+                'points': stat.get('points', 0),
+                'rebounds': stat.get('rebounds', 0),
+                'assists': stat.get('assists', 0),
+                'steals': stat.get('steals', 0),
+                'turnovers': stat.get('turnovers', 0),
+                'efficiency': stat.get('efficiency', 0),
+            }
+
+            if norm_name not in game_logs:
+                game_logs[norm_name] = []
+            game_logs[norm_name].append(game_entry)
+
+    # Sort each player's games by date
+    for name in game_logs:
+        game_logs[name].sort(key=lambda x: x.get('date') or '', reverse=True)
+
+    return game_logs
+
+
 def main():
     """Main entry point."""
     logger.info("=" * 60)
@@ -245,7 +462,35 @@ def main():
 
     # Filter to Americans
     american_players = [p for p in all_players if p['is_american']]
+    american_names = {normalize_name(p['name']) for p in american_players}
     logger.info(f"\nFetching stats for {len(american_players)} American players...")
+
+    # Fetch schedule and game logs
+    logger.info("\nFetching game schedule and box scores...")
+    games = fetch_schedule()
+
+    # Build game logs for Americans
+    game_logs = {}
+    if games:
+        game_logs = build_player_game_logs(games, american_names)
+        logger.info(f"Built game logs for {len(game_logs)} American players")
+
+        # Save schedule
+        played_games = [g for g in games if g.get('played')]
+        upcoming_games = [g for g in games if not g.get('played')]
+
+        schedule_data = {
+            'export_date': datetime.now().isoformat(),
+            'season': CURRENT_SEASON,
+            'league': 'Turkish BSL',
+            'source': 'tblstat.net',
+            'total_games': len(games),
+            'played': len(played_games),
+            'upcoming': len(upcoming_games),
+            'games': games
+        }
+        save_json(schedule_data, f'bsl_schedule_{timestamp}.json')
+        save_json(schedule_data, 'bsl_schedule_latest.json')
 
     # Get detailed stats for each American
     american_stats = []
@@ -255,20 +500,23 @@ def main():
         stats = get_player_stats(player['id'], player['name'])
 
         if stats and stats.get('games', 0) > 0:
+            norm_name = normalize_name(player['name'])
+
             player_data = {
                 'tblstat_id': player['id'],
                 'name': player['name'],
-                **stats
+                **stats,
+                'game_log': game_logs.get(norm_name, [])  # Add game-by-game stats
             }
 
             # Try to match with existing player
-            norm_name = normalize_name(player['name'])
             if norm_name in existing_players:
                 player_data['player_code'] = existing_players[norm_name].get('code')
                 player_data['matched'] = True
 
             american_stats.append(player_data)
-            logger.info(f"    -> {stats.get('ppg', 0):.1f} PPG, {stats.get('rpg', 0):.1f} RPG, {stats.get('apg', 0):.1f} APG")
+            games_in_log = len(player_data.get('game_log', []))
+            logger.info(f"    -> {stats.get('ppg', 0):.1f} PPG, {stats.get('rpg', 0):.1f} RPG, {stats.get('apg', 0):.1f} APG ({games_in_log} games in log)")
         else:
             logger.info(f"    -> No current season stats")
 
