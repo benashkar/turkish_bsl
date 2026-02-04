@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-03T07:27:25.858575",
+  "export_date": "2026-02-04T07:32:26.048829",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 29,
@@ -26,17 +26,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/k1n1go1580034638.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 16,
-      "ppg": 8.9,
-      "rpg": 3.8,
-      "apg": 2.1,
+      "games_played": 17,
+      "ppg": 9.0,
+      "rpg": 4.0,
+      "apg": 2.2,
       "spg": 0.7,
       "minutes": 21.8,
-      "ft_pct": 82.6,
-      "fg2_pct": 41.3,
-      "fg3_pct": 38.7,
-      "efficiency": 9.9,
+      "ft_pct": 84.0,
+      "fg2_pct": 40.3,
+      "fg3_pct": 40.0,
+      "efficiency": 10.4,
       "game_log": [
+        {
+          "date": "2026-01-30",
+          "opponent": "ONVO Büyükçekmece",
+          "home_away": "Away",
+          "minutes": "22:39",
+          "points": 10,
+          "rebounds": 7,
+          "assists": 4,
+          "steals": 1,
+          "turnovers": 0,
+          "efficiency": 18
+        },
         {
           "date": "2026-01-24",
           "opponent": "Mersin Spor",
@@ -231,6 +243,21 @@
         }
       ],
       "past_games": [
+        {
+          "date": "2026-01-30",
+          "round": null,
+          "venue": null,
+          "home_team": "ONVO Büyükçekmece",
+          "away_team": "Beşiktaş GAİN",
+          "home_score": 62,
+          "away_score": 79,
+          "played": true,
+          "opponent": "ONVO Büyükçekmece",
+          "home_away": "Away",
+          "team_score": 79,
+          "opponent_score": 62,
+          "result": "W"
+        },
         {
           "date": "2026-01-24",
           "round": null,
@@ -487,23 +514,7 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-01-30",
-          "round": null,
-          "venue": null,
-          "home_team": "ONVO Büyükçekmece",
-          "away_team": "Beşiktaş GAİN",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "ONVO Büyükçekmece",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -626,6 +637,21 @@
         }
       ],
       "past_games": [
+        {
+          "date": "2026-01-31",
+          "round": null,
+          "venue": null,
+          "home_team": "Karşıyaka",
+          "away_team": "Fenerbahçe Beko",
+          "home_score": 55,
+          "away_score": 91,
+          "played": true,
+          "opponent": "Karşıyaka",
+          "home_away": "Away",
+          "team_score": 91,
+          "opponent_score": 55,
+          "result": "W"
+        },
         {
           "date": "2026-01-25",
           "round": null,
@@ -882,23 +908,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-01-31",
-          "round": null,
-          "venue": null,
-          "home_team": "Karşıyaka",
-          "away_team": "Fenerbahçe Beko",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Karşıyaka",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -936,6 +946,21 @@
       "efficiency": 0,
       "game_log": [],
       "past_games": [
+        {
+          "date": "2026-01-30",
+          "round": null,
+          "venue": null,
+          "home_team": "ONVO Büyükçekmece",
+          "away_team": "Beşiktaş GAİN",
+          "home_score": 62,
+          "away_score": 79,
+          "played": true,
+          "opponent": "Beşiktaş GAİN",
+          "home_away": "Home",
+          "team_score": 62,
+          "opponent_score": 79,
+          "result": "L"
+        },
         {
           "date": "2026-01-23",
           "round": null,
@@ -1192,23 +1217,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-01-30",
-          "round": null,
-          "venue": null,
-          "home_team": "ONVO Büyükçekmece",
-          "away_team": "Beşiktaş GAİN",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Beşiktaş GAİN",
-          "home_away": "Home",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -1284,6 +1293,21 @@
       "efficiency": 0,
       "game_log": [],
       "past_games": [
+        {
+          "date": "2026-01-31",
+          "round": null,
+          "venue": null,
+          "home_team": "Mersin Spor",
+          "away_team": "Bahçeşehir Koleji",
+          "home_score": 87,
+          "away_score": 80,
+          "played": true,
+          "opponent": "Mersin Spor",
+          "home_away": "Away",
+          "team_score": 80,
+          "opponent_score": 87,
+          "result": "L"
+        },
         {
           "date": "2026-01-24",
           "round": null,
@@ -1540,23 +1564,7 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-01-31",
-          "round": null,
-          "venue": null,
-          "home_team": "Mersin Spor",
-          "away_team": "Bahçeşehir Koleji",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Mersin Spor",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -2319,6 +2327,21 @@
       ],
       "past_games": [
         {
+          "date": "2026-01-31",
+          "round": null,
+          "venue": null,
+          "home_team": "Karşıyaka",
+          "away_team": "Fenerbahçe Beko",
+          "home_score": 55,
+          "away_score": 91,
+          "played": true,
+          "opponent": "Karşıyaka",
+          "home_away": "Away",
+          "team_score": 91,
+          "opponent_score": 55,
+          "result": "W"
+        },
+        {
           "date": "2026-01-25",
           "round": null,
           "venue": null,
@@ -2574,23 +2597,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-01-31",
-          "round": null,
-          "venue": null,
-          "home_team": "Karşıyaka",
-          "away_team": "Fenerbahçe Beko",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Karşıyaka",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -3251,17 +3258,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/8jvmna1759315277.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 14,
-      "ppg": 15.1,
-      "rpg": 3.6,
-      "apg": 1.5,
+      "games_played": 15,
+      "ppg": 14.8,
+      "rpg": 3.5,
+      "apg": 1.7,
       "spg": 0.9,
-      "minutes": 28.6,
-      "ft_pct": 74.6,
-      "fg2_pct": 49.5,
-      "fg3_pct": 35.0,
+      "minutes": 28.5,
+      "ft_pct": 72.6,
+      "fg2_pct": 50.0,
+      "fg3_pct": 33.3,
       "efficiency": 11.6,
       "game_log": [
+        {
+          "date": "2026-01-30",
+          "opponent": "Beşiktaş GAİN",
+          "home_away": "Home",
+          "minutes": "27:59",
+          "points": 11,
+          "rebounds": 3,
+          "assists": 4,
+          "steals": 2,
+          "turnovers": 1,
+          "efficiency": 11
+        },
         {
           "date": "2026-01-23",
           "opponent": "Manisa Basket",
@@ -3432,6 +3451,21 @@
         }
       ],
       "past_games": [
+        {
+          "date": "2026-01-30",
+          "round": null,
+          "venue": null,
+          "home_team": "ONVO Büyükçekmece",
+          "away_team": "Beşiktaş GAİN",
+          "home_score": 62,
+          "away_score": 79,
+          "played": true,
+          "opponent": "Beşiktaş GAİN",
+          "home_away": "Home",
+          "team_score": 62,
+          "opponent_score": 79,
+          "result": "L"
+        },
         {
           "date": "2026-01-23",
           "round": null,
@@ -3688,23 +3722,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-01-30",
-          "round": null,
-          "venue": null,
-          "home_team": "ONVO Büyükçekmece",
-          "away_team": "Beşiktaş GAİN",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Beşiktaş GAİN",
-          "home_away": "Home",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -4346,17 +4364,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/pw51ka1676717993.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 16,
-      "ppg": 15.1,
+      "games_played": 17,
+      "ppg": 14.9,
       "rpg": 2.2,
       "apg": 2.7,
       "spg": 0.9,
       "minutes": 26.0,
-      "ft_pct": 81.8,
-      "fg2_pct": 48.9,
-      "fg3_pct": 38.9,
-      "efficiency": 11.7,
+      "ft_pct": 80.7,
+      "fg2_pct": 48.0,
+      "fg3_pct": 39.4,
+      "efficiency": 11.5,
       "game_log": [
+        {
+          "date": "2026-01-30",
+          "opponent": "ONVO Büyükçekmece",
+          "home_away": "Away",
+          "minutes": "25:45",
+          "points": 11,
+          "rebounds": 2,
+          "assists": 3,
+          "steals": 1,
+          "turnovers": 2,
+          "efficiency": 8
+        },
         {
           "date": "2026-01-24",
           "opponent": "Mersin Spor",
@@ -4551,6 +4581,21 @@
         }
       ],
       "past_games": [
+        {
+          "date": "2026-01-30",
+          "round": null,
+          "venue": null,
+          "home_team": "ONVO Büyükçekmece",
+          "away_team": "Beşiktaş GAİN",
+          "home_score": 62,
+          "away_score": 79,
+          "played": true,
+          "opponent": "ONVO Büyükçekmece",
+          "home_away": "Away",
+          "team_score": 79,
+          "opponent_score": 62,
+          "result": "W"
+        },
         {
           "date": "2026-01-24",
           "round": null,
@@ -4807,23 +4852,7 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-01-30",
-          "round": null,
-          "venue": null,
-          "home_team": "ONVO Büyükçekmece",
-          "away_team": "Beşiktaş GAİN",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "ONVO Büyükçekmece",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -4849,17 +4878,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/h2eegd1711709779.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 4,
-      "ppg": 9.3,
-      "rpg": 0.8,
-      "apg": 2.3,
-      "spg": 0.8,
-      "minutes": 17.3,
+      "games_played": 5,
+      "ppg": 7.8,
+      "rpg": 1.0,
+      "apg": 1.8,
+      "spg": 0.6,
+      "minutes": 17.0,
       "ft_pct": 83.3,
-      "fg2_pct": 56.3,
-      "fg3_pct": 27.3,
-      "efficiency": 7.8,
+      "fg2_pct": 50.0,
+      "fg3_pct": 25.0,
+      "efficiency": 5.0,
       "game_log": [
+        {
+          "date": "2026-01-31",
+          "opponent": "Türk Telekom",
+          "home_away": "Away",
+          "minutes": "15:34",
+          "points": 2,
+          "rebounds": 2,
+          "assists": 0,
+          "steals": 0,
+          "turnovers": 6,
+          "efficiency": -6
+        },
         {
           "date": "2026-01-24",
           "opponent": "Galatasaray MCT Technic",
@@ -5426,6 +5467,21 @@
       ],
       "past_games": [
         {
+          "date": "2026-01-30",
+          "round": null,
+          "venue": null,
+          "home_team": "ONVO Büyükçekmece",
+          "away_team": "Beşiktaş GAİN",
+          "home_score": 62,
+          "away_score": 79,
+          "played": true,
+          "opponent": "Beşiktaş GAİN",
+          "home_away": "Home",
+          "team_score": 62,
+          "opponent_score": 79,
+          "result": "L"
+        },
+        {
           "date": "2026-01-23",
           "round": null,
           "venue": null,
@@ -5681,23 +5737,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-01-30",
-          "round": null,
-          "venue": null,
-          "home_team": "ONVO Büyükçekmece",
-          "away_team": "Beşiktaş GAİN",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Beşiktaş GAİN",
-          "home_away": "Home",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -6381,17 +6421,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/mm9toh1702372254.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 17,
-      "ppg": 5.8,
+      "games_played": 18,
+      "ppg": 5.6,
       "rpg": 2.6,
       "apg": 0.8,
       "spg": 0.7,
-      "minutes": 14.5,
-      "ft_pct": 90.0,
-      "fg2_pct": 48.7,
+      "minutes": 14.4,
+      "ft_pct": 90.9,
+      "fg2_pct": 50.0,
       "fg3_pct": 56.7,
-      "efficiency": 7.7,
+      "efficiency": 7.4,
       "game_log": [
+        {
+          "date": "2026-01-31",
+          "opponent": "Türk Telekom",
+          "home_away": "Away",
+          "minutes": "11:35",
+          "points": 3,
+          "rebounds": 3,
+          "assists": 0,
+          "steals": 0,
+          "turnovers": 3,
+          "efficiency": 3
+        },
         {
           "date": "2026-01-24",
           "opponent": "Galatasaray MCT Technic",
