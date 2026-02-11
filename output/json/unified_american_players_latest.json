@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-10T07:34:47.057668",
+  "export_date": "2026-02-11T07:33:46.498075",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 30,
@@ -653,6 +653,21 @@
       ],
       "past_games": [
         {
+          "date": "2026-02-08",
+          "round": null,
+          "venue": null,
+          "home_team": "Fenerbahçe Beko",
+          "away_team": "Galatasaray MCT Technic",
+          "home_score": 79,
+          "away_score": 77,
+          "played": true,
+          "opponent": "Galatasaray MCT Technic",
+          "home_away": "Home",
+          "team_score": 79,
+          "opponent_score": 77,
+          "result": "W"
+        },
+        {
           "date": "2026-01-31",
           "round": null,
           "venue": null,
@@ -923,23 +938,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-02-08",
-          "round": null,
-          "venue": null,
-          "home_team": "Fenerbahçe Beko",
-          "away_team": "Galatasaray MCT Technic",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Galatasaray MCT Technic",
-          "home_away": "Home",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -1702,6 +1701,21 @@
       "game_log": [],
       "past_games": [
         {
+          "date": "2026-02-08",
+          "round": null,
+          "venue": null,
+          "home_team": "Anadolu Efes",
+          "away_team": "Karşıyaka",
+          "home_score": 98,
+          "away_score": 81,
+          "played": true,
+          "opponent": "Karşıyaka",
+          "home_away": "Home",
+          "team_score": 98,
+          "opponent_score": 81,
+          "result": "W"
+        },
+        {
           "date": "2026-02-01",
           "round": null,
           "venue": null,
@@ -1972,23 +1986,7 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-02-08",
-          "round": null,
-          "venue": null,
-          "home_team": "Anadolu Efes",
-          "away_team": "Karşıyaka",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Karşıyaka",
-          "home_away": "Home",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -2026,6 +2024,21 @@
       "efficiency": 0,
       "game_log": [],
       "past_games": [
+        {
+          "date": "2026-02-08",
+          "round": null,
+          "venue": null,
+          "home_team": "Manisa Basket",
+          "away_team": "Bursaspor Basketbol",
+          "home_score": 94,
+          "away_score": 76,
+          "played": true,
+          "opponent": "Manisa Basket",
+          "home_away": "Away",
+          "team_score": 76,
+          "opponent_score": 94,
+          "result": "L"
+        },
         {
           "date": "2026-02-02",
           "round": null,
@@ -2297,23 +2310,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-02-08",
-          "round": null,
-          "venue": null,
-          "home_team": "Manisa Basket",
-          "away_team": "Bursaspor Basketbol",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Manisa Basket",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -2728,6 +2725,21 @@
       ],
       "past_games": [
         {
+          "date": "2026-02-08",
+          "round": null,
+          "venue": null,
+          "home_team": "Fenerbahçe Beko",
+          "away_team": "Galatasaray MCT Technic",
+          "home_score": 79,
+          "away_score": 77,
+          "played": true,
+          "opponent": "Galatasaray MCT Technic",
+          "home_away": "Home",
+          "team_score": 79,
+          "opponent_score": 77,
+          "result": "W"
+        },
+        {
           "date": "2026-01-31",
           "round": null,
           "venue": null,
@@ -2998,23 +3010,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-02-08",
-          "round": null,
-          "venue": null,
-          "home_team": "Fenerbahçe Beko",
-          "away_team": "Galatasaray MCT Technic",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Galatasaray MCT Technic",
-          "home_away": "Home",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -3078,17 +3074,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/ke3gpt1739746415.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 14,
-      "ppg": 15.2,
+      "games_played": 15,
+      "ppg": 14.5,
       "rpg": 3.1,
       "apg": 1.5,
       "spg": 0.6,
-      "minutes": 22.0,
-      "ft_pct": 78.6,
-      "fg2_pct": 54.0,
-      "fg3_pct": 37.3,
-      "efficiency": 12.6,
+      "minutes": 21.9,
+      "ft_pct": 79.3,
+      "fg2_pct": 52.2,
+      "fg3_pct": 36.1,
+      "efficiency": 11.9,
       "game_log": [
+        {
+          "date": "2026-02-08",
+          "opponent": "Fenerbahçe Beko",
+          "home_away": "Away",
+          "minutes": "20:20",
+          "points": 5,
+          "rebounds": 2,
+          "assists": 2,
+          "steals": 1,
+          "turnovers": 2,
+          "efficiency": 1
+        },
         {
           "date": "2026-02-01",
           "opponent": "Aliağa Petkim Spor",
@@ -4304,6 +4312,21 @@
       ],
       "past_games": [
         {
+          "date": "2026-02-08",
+          "round": null,
+          "venue": null,
+          "home_team": "Manisa Basket",
+          "away_team": "Bursaspor Basketbol",
+          "home_score": 94,
+          "away_score": 76,
+          "played": true,
+          "opponent": "Manisa Basket",
+          "home_away": "Away",
+          "team_score": 76,
+          "opponent_score": 94,
+          "result": "L"
+        },
+        {
           "date": "2026-02-02",
           "round": null,
           "venue": null,
@@ -4574,23 +4597,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-02-08",
-          "round": null,
-          "venue": null,
-          "home_team": "Manisa Basket",
-          "away_team": "Bursaspor Basketbol",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Manisa Basket",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -4616,17 +4623,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/wds6sb1679123724.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 18,
-      "ppg": 6.0,
-      "rpg": 3.8,
-      "apg": 2.0,
+      "games_played": 19,
+      "ppg": 5.7,
+      "rpg": 3.6,
+      "apg": 1.9,
       "spg": 0.5,
-      "minutes": 17.7,
+      "minutes": 16.9,
       "ft_pct": 62.1,
       "fg2_pct": 77.6,
       "fg3_pct": 0,
-      "efficiency": 10.6,
+      "efficiency": 10.0,
       "game_log": [
+        {
+          "date": "2026-02-08",
+          "opponent": "Türk Telekom",
+          "home_away": "Home",
+          "minutes": "2:53",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "steals": 0,
+          "turnovers": 1,
+          "efficiency": -1
+        },
         {
           "date": "2026-02-01",
           "opponent": "Galatasaray MCT Technic",
@@ -5498,6 +5517,21 @@
       ],
       "past_games": [
         {
+          "date": "2026-02-08",
+          "round": null,
+          "venue": null,
+          "home_team": "Manisa Basket",
+          "away_team": "Bursaspor Basketbol",
+          "home_score": 94,
+          "away_score": 76,
+          "played": true,
+          "opponent": "Manisa Basket",
+          "home_away": "Away",
+          "team_score": 76,
+          "opponent_score": 94,
+          "result": "L"
+        },
+        {
           "date": "2026-02-02",
           "round": null,
           "venue": null,
@@ -5768,23 +5802,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-02-08",
-          "round": null,
-          "venue": null,
-          "home_team": "Manisa Basket",
-          "away_team": "Bursaspor Basketbol",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Manisa Basket",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -6414,6 +6432,21 @@
       "game_log": [],
       "past_games": [
         {
+          "date": "2026-02-08",
+          "round": null,
+          "venue": null,
+          "home_team": "Manisa Basket",
+          "away_team": "Bursaspor Basketbol",
+          "home_score": 94,
+          "away_score": 76,
+          "played": true,
+          "opponent": "Manisa Basket",
+          "home_away": "Away",
+          "team_score": 76,
+          "opponent_score": 94,
+          "result": "L"
+        },
+        {
           "date": "2026-02-02",
           "round": null,
           "venue": null,
@@ -6684,23 +6717,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-02-08",
-          "round": null,
-          "venue": null,
-          "home_team": "Manisa Basket",
-          "away_team": "Bursaspor Basketbol",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Manisa Basket",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -6739,6 +6756,21 @@
       "game_log": [],
       "past_games": [
         {
+          "date": "2026-02-08",
+          "round": null,
+          "venue": null,
+          "home_team": "Manisa Basket",
+          "away_team": "Bursaspor Basketbol",
+          "home_score": 94,
+          "away_score": 76,
+          "played": true,
+          "opponent": "Manisa Basket",
+          "home_away": "Away",
+          "team_score": 76,
+          "opponent_score": 94,
+          "result": "L"
+        },
+        {
           "date": "2026-02-02",
           "round": null,
           "venue": null,
@@ -7009,23 +7041,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-02-08",
-          "round": null,
-          "venue": null,
-          "home_team": "Manisa Basket",
-          "away_team": "Bursaspor Basketbol",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Manisa Basket",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -7356,17 +7372,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/nvtxnd1745081065.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 14,
-      "ppg": 6.1,
-      "rpg": 3.5,
-      "apg": 5.3,
+      "games_played": 15,
+      "ppg": 5.9,
+      "rpg": 3.4,
+      "apg": 5.1,
       "spg": 0.9,
-      "minutes": 24.6,
-      "ft_pct": 92.9,
+      "minutes": 24.1,
+      "ft_pct": 93.8,
       "fg2_pct": 48.3,
-      "fg3_pct": 38.5,
-      "efficiency": 12.1,
+      "fg3_pct": 37.5,
+      "efficiency": 11.5,
       "game_log": [
+        {
+          "date": "2026-02-08",
+          "opponent": "Karşıyaka",
+          "home_away": "Home",
+          "minutes": "18:02",
+          "points": 2,
+          "rebounds": 2,
+          "assists": 3,
+          "steals": 0,
+          "turnovers": 2,
+          "efficiency": 4
+        },
         {
           "date": "2026-02-01",
           "opponent": "Yukatel Merkezefendi Bld.",
@@ -7550,6 +7578,21 @@
       ],
       "past_games": [
         {
+          "date": "2026-02-08",
+          "round": null,
+          "venue": null,
+          "home_team": "Anadolu Efes",
+          "away_team": "Karşıyaka",
+          "home_score": 98,
+          "away_score": 81,
+          "played": true,
+          "opponent": "Karşıyaka",
+          "home_away": "Home",
+          "team_score": 98,
+          "opponent_score": 81,
+          "result": "W"
+        },
+        {
           "date": "2026-02-01",
           "round": null,
           "venue": null,
@@ -7820,23 +7863,7 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-02-08",
-          "round": null,
-          "venue": null,
-          "home_team": "Anadolu Efes",
-          "away_team": "Karşıyaka",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Karşıyaka",
-          "home_away": "Home",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -7984,6 +8011,21 @@
       ],
       "past_games": [
         {
+          "date": "2026-02-08",
+          "round": null,
+          "venue": null,
+          "home_team": "Anadolu Efes",
+          "away_team": "Karşıyaka",
+          "home_score": 98,
+          "away_score": 81,
+          "played": true,
+          "opponent": "Karşıyaka",
+          "home_away": "Home",
+          "team_score": 98,
+          "opponent_score": 81,
+          "result": "W"
+        },
+        {
           "date": "2026-02-01",
           "round": null,
           "venue": null,
@@ -8254,23 +8296,7 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-02-08",
-          "round": null,
-          "venue": null,
-          "home_team": "Anadolu Efes",
-          "away_team": "Karşıyaka",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Karşıyaka",
-          "home_away": "Home",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -8296,17 +8322,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/9f4sr61766607829.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 12,
-      "ppg": 11.5,
-      "rpg": 2.4,
-      "apg": 3.4,
+      "games_played": 13,
+      "ppg": 13.0,
+      "rpg": 2.6,
+      "apg": 3.6,
       "spg": 0.5,
-      "minutes": 25.6,
-      "ft_pct": 83.3,
-      "fg2_pct": 42.9,
-      "fg3_pct": 46.3,
-      "efficiency": 10.1,
+      "minutes": 26.1,
+      "ft_pct": 85.7,
+      "fg2_pct": 48.9,
+      "fg3_pct": 43.8,
+      "efficiency": 11.9,
       "game_log": [
+        {
+          "date": "2026-02-08",
+          "opponent": "Türk Telekom",
+          "home_away": "Home",
+          "minutes": "32:37",
+          "points": 31,
+          "rebounds": 5,
+          "assists": 6,
+          "steals": 0,
+          "turnovers": 2,
+          "efficiency": 33
+        },
         {
           "date": "2026-01-25",
           "opponent": "Fenerbahçe Beko",
