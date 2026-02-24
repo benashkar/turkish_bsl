@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-23T07:34:54.915311",
+  "export_date": "2026-02-24T07:32:29.398745",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 30,
@@ -582,17 +582,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/0vo94u1742381888.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 7,
-      "ppg": 8.1,
-      "rpg": 3.7,
-      "apg": 0.4,
+      "games_played": 8,
+      "ppg": 7.4,
+      "rpg": 3.5,
+      "apg": 0.6,
       "spg": 0.6,
       "minutes": 17.0,
       "ft_pct": 83.3,
-      "fg2_pct": 52.6,
-      "fg3_pct": 47.4,
-      "efficiency": 9.0,
+      "fg2_pct": 52.4,
+      "fg3_pct": 42.9,
+      "efficiency": 8.3,
       "game_log": [
+        {
+          "date": "2026-02-15",
+          "opponent": "Türk Telekom",
+          "home_away": "Away",
+          "minutes": "17:09",
+          "points": 2,
+          "rebounds": 2,
+          "assists": 2,
+          "steals": 1,
+          "turnovers": 1,
+          "efficiency": 3
+        },
         {
           "date": "2025-12-20",
           "opponent": "Trabzonspor",
@@ -679,6 +691,21 @@
         }
       ],
       "past_games": [
+        {
+          "date": "2026-02-15",
+          "round": null,
+          "venue": null,
+          "home_team": "Türk Telekom",
+          "away_team": "Fenerbahçe Beko",
+          "home_score": 76,
+          "away_score": 88,
+          "played": true,
+          "opponent": "Türk Telekom",
+          "home_away": "Away",
+          "team_score": 88,
+          "opponent_score": 76,
+          "result": "W"
+        },
         {
           "date": "2026-02-08",
           "round": null,
@@ -965,23 +992,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-02-15",
-          "round": null,
-          "venue": null,
-          "home_team": "Türk Telekom",
-          "away_team": "Fenerbahçe Beko",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Türk Telekom",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -2828,6 +2839,21 @@
       ],
       "past_games": [
         {
+          "date": "2026-02-15",
+          "round": null,
+          "venue": null,
+          "home_team": "Türk Telekom",
+          "away_team": "Fenerbahçe Beko",
+          "home_score": 76,
+          "away_score": 88,
+          "played": true,
+          "opponent": "Türk Telekom",
+          "home_away": "Away",
+          "team_score": 88,
+          "opponent_score": 76,
+          "result": "W"
+        },
+        {
           "date": "2026-02-08",
           "round": null,
           "venue": null,
@@ -3113,23 +3139,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "2026-02-15",
-          "round": null,
-          "venue": null,
-          "home_team": "Türk Telekom",
-          "away_team": "Fenerbahçe Beko",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Türk Telekom",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -3193,17 +3203,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/ke3gpt1739746415.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 15,
-      "ppg": 14.5,
-      "rpg": 3.1,
-      "apg": 1.5,
+      "games_played": 16,
+      "ppg": 14.0,
+      "rpg": 3.0,
+      "apg": 1.8,
       "spg": 0.6,
       "minutes": 21.9,
-      "ft_pct": 79.3,
-      "fg2_pct": 52.2,
-      "fg3_pct": 36.1,
-      "efficiency": 11.9,
+      "ft_pct": 78.3,
+      "fg2_pct": 50.5,
+      "fg3_pct": 36.5,
+      "efficiency": 11.6,
       "game_log": [
+        {
+          "date": "2026-02-15",
+          "opponent": "Karşıyaka",
+          "home_away": "Away",
+          "minutes": "22:28",
+          "points": 6,
+          "rebounds": 2,
+          "assists": 5,
+          "steals": 1,
+          "turnovers": 0,
+          "efficiency": 8
+        },
         {
           "date": "2026-02-08",
           "opponent": "Fenerbahçe Beko",
@@ -4432,6 +4454,18 @@
       "efficiency": 8.7,
       "game_log": [
         {
+          "date": "2026-02-15",
+          "opponent": "Mersin Spor",
+          "home_away": "Away",
+          "minutes": "0:00",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "steals": 0,
+          "turnovers": 0,
+          "efficiency": 0
+        },
+        {
           "date": "2026-02-01",
           "opponent": "Galatasaray MCT Technic",
           "home_away": "Away",
@@ -4796,17 +4830,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/wds6sb1679123724.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 19,
-      "ppg": 5.7,
-      "rpg": 3.6,
-      "apg": 1.9,
+      "games_played": 20,
+      "ppg": 5.5,
+      "rpg": 3.7,
+      "apg": 2.0,
       "spg": 0.5,
       "minutes": 16.9,
       "ft_pct": 62.1,
-      "fg2_pct": 77.6,
+      "fg2_pct": 76.7,
       "fg3_pct": 0,
-      "efficiency": 10.0,
+      "efficiency": 9.9,
       "game_log": [
+        {
+          "date": "2026-02-15",
+          "opponent": "Mersin Spor",
+          "home_away": "Away",
+          "minutes": "16:34",
+          "points": 2,
+          "rebounds": 5,
+          "assists": 3,
+          "steals": 0,
+          "turnovers": 0,
+          "efficiency": 9
+        },
         {
           "date": "2026-02-08",
           "opponent": "Türk Telekom",
@@ -8648,17 +8694,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/9f4sr61766607829.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 13,
-      "ppg": 13.0,
+      "games_played": 14,
+      "ppg": 13.8,
       "rpg": 2.6,
-      "apg": 3.6,
-      "spg": 0.5,
-      "minutes": 26.1,
+      "apg": 3.9,
+      "spg": 0.6,
+      "minutes": 27.4,
       "ft_pct": 85.7,
-      "fg2_pct": 48.9,
-      "fg3_pct": 43.8,
-      "efficiency": 11.9,
+      "fg2_pct": 49.0,
+      "fg3_pct": 45.5,
+      "efficiency": 12.8,
       "game_log": [
+        {
+          "date": "2026-02-15",
+          "opponent": "Mersin Spor",
+          "home_away": "Away",
+          "minutes": "44:21",
+          "points": 24,
+          "rebounds": 2,
+          "assists": 8,
+          "steals": 2,
+          "turnovers": 2,
+          "efficiency": 25
+        },
         {
           "date": "2026-02-08",
           "opponent": "Türk Telekom",
