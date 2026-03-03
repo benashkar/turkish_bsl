@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-03-02T07:31:53.175321",
+  "export_date": "2026-03-03T07:27:48.939408",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 30,
@@ -556,7 +556,23 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-06",
+          "round": null,
+          "venue": null,
+          "home_team": "Beşiktaş GAİN",
+          "away_team": "Yukatel Merkezefendi Bld.",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Yukatel Merkezefendi Bld.",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -992,7 +1008,23 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-08",
+          "round": null,
+          "venue": null,
+          "home_team": "Fenerbahçe Beko",
+          "away_team": "Mersin Spor",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Mersin Spor",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -1331,7 +1363,23 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-07",
+          "round": null,
+          "venue": null,
+          "home_team": "Aliağa Petkim Spor",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Aliağa Petkim Spor",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -1708,7 +1756,23 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-07",
+          "round": null,
+          "venue": null,
+          "home_team": "Bahçeşehir Koleji",
+          "away_team": "Bursaspor Basketbol",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Bursaspor Basketbol",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -2085,7 +2149,23 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-09",
+          "round": null,
+          "venue": null,
+          "home_team": "Manisa Basket",
+          "away_team": "Anadolu Efes",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Manisa Basket",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -2424,7 +2504,23 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-07",
+          "round": null,
+          "venue": null,
+          "home_team": "Bahçeşehir Koleji",
+          "away_team": "Bursaspor Basketbol",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Bahçeşehir Koleji",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -3139,7 +3235,23 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-08",
+          "round": null,
+          "venue": null,
+          "home_team": "Fenerbahçe Beko",
+          "away_team": "Mersin Spor",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Mersin Spor",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -4378,7 +4490,23 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-07",
+          "round": null,
+          "venue": null,
+          "home_team": "Aliağa Petkim Spor",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Aliağa Petkim Spor",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -4804,7 +4932,23 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-07",
+          "round": null,
+          "venue": null,
+          "home_team": "Bahçeşehir Koleji",
+          "away_team": "Bursaspor Basketbol",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Bahçeşehir Koleji",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -5639,7 +5783,23 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-06",
+          "round": null,
+          "venue": null,
+          "home_team": "Beşiktaş GAİN",
+          "away_team": "Yukatel Merkezefendi Bld.",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Yukatel Merkezefendi Bld.",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -6063,7 +6223,23 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-07",
+          "round": null,
+          "venue": null,
+          "home_team": "Bahçeşehir Koleji",
+          "away_team": "Bursaspor Basketbol",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Bahçeşehir Koleji",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -6643,7 +6819,23 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-07",
+          "round": null,
+          "venue": null,
+          "home_team": "Aliağa Petkim Spor",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Aliağa Petkim Spor",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -7020,7 +7212,23 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-07",
+          "round": null,
+          "venue": null,
+          "home_team": "Bahçeşehir Koleji",
+          "away_team": "Bursaspor Basketbol",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Bahçeşehir Koleji",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -7359,7 +7567,23 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-07",
+          "round": null,
+          "venue": null,
+          "home_team": "Bahçeşehir Koleji",
+          "away_team": "Bursaspor Basketbol",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Bahçeşehir Koleji",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -8208,7 +8432,23 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-09",
+          "round": null,
+          "venue": null,
+          "home_team": "Manisa Basket",
+          "away_team": "Anadolu Efes",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Manisa Basket",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -8668,7 +8908,23 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-03-09",
+          "round": null,
+          "venue": null,
+          "home_team": "Manisa Basket",
+          "away_team": "Anadolu Efes",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Manisa Basket",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
