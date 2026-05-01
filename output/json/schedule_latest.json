@@ -1,10 +1,10 @@
 {
-  "export_date": "2026-04-30T07:51:01.114213",
+  "export_date": "2026-05-01T07:49:51.823885",
   "season": "2025-2026",
   "league": "Turkish BSL",
-  "total_games": 15,
-  "played": 15,
-  "upcoming": 0,
+  "total_games": 17,
+  "played": 16,
+  "upcoming": 1,
   "games": [
     {
       "game_id": "2384692",
@@ -245,6 +245,38 @@
       "season": "2025-2026",
       "status": "FT",
       "result": " Bursaspor Basketbol Quarters:<br>15 22 17 19 <br><br>Anadolu Efes SK Quarters:<br>24 18 23 28 "
+    },
+    {
+      "game_id": "2384914",
+      "date": "2026-04-27",
+      "time": "16:00:00",
+      "round": "28",
+      "home_team": "Merkezefendi Belediyesi Denizli Basket",
+      "away_team": "Mersin MSK",
+      "home_score": 101,
+      "away_score": 93,
+      "played": true,
+      "venue": "Pamukkale University Arena",
+      "city": "",
+      "season": "2025-2026",
+      "status": "FT",
+      "result": " Merkezefendi Belediyesi Denizli Basket Quarters:<br>26 25 31 19 <br><br>Mersin MSK Quarters:<br>18 26 17 32 "
+    },
+    {
+      "game_id": "2384916",
+      "date": "2026-05-01",
+      "time": "16:00:00",
+      "round": "29",
+      "home_team": "Petkim Spor",
+      "away_team": "Bahçeşehir Koleji SK",
+      "home_score": null,
+      "away_score": null,
+      "played": false,
+      "venue": "Enka Sport Hall",
+      "city": "",
+      "season": "2025-2026",
+      "status": "NS",
+      "result": " Petkim Spor Quarters:<br>    <br><br>Bahçeşehir Koleji SK Quarters:<br>    "
     }
   ]
 }
