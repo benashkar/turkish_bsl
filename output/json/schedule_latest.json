@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-05-02T07:39:22.373002",
+  "export_date": "2026-05-03T07:40:32.512184",
   "season": "2025-2026",
   "league": "Turkish BSL",
   "total_games": 17,
@@ -247,36 +247,36 @@
       "result": " Bursaspor Basketbol Quarters:<br>15 22 17 19 <br><br>Anadolu Efes SK Quarters:<br>24 18 23 28 "
     },
     {
-      "game_id": "2384916",
-      "date": "2026-05-01",
-      "time": "16:00:00",
-      "round": "29",
-      "home_team": "Petkim Spor",
-      "away_team": "Bahçeşehir Koleji SK",
-      "home_score": 76,
-      "away_score": 95,
-      "played": true,
-      "venue": "Enka Sport Hall",
-      "city": "",
-      "season": "2025-2026",
-      "status": "FT",
-      "result": " Petkim Spor Quarters:<br>23 18 17 18 <br><br>Bahçeşehir Koleji SK Quarters:<br>18 23 25 29 "
-    },
-    {
-      "game_id": "2384919",
+      "game_id": "2384922",
       "date": "2026-05-02",
       "time": "15:00:00",
       "round": "29",
-      "home_team": "Fenerbahçe Basketbol",
-      "away_team": "Besiktas Basketbol",
+      "home_team": "Esenler Erokspor Basketball",
+      "away_team": "Bursaspor Basketbol",
+      "home_score": 82,
+      "away_score": 83,
+      "played": true,
+      "venue": "Ahmet Cömert Sport Hall",
+      "city": "",
+      "season": "2025-2026",
+      "status": "FT",
+      "result": " Esenler Erokspor Basketball Quarters:<br>24 25 19 14 <br><br>Bursaspor Basketbol Quarters:<br>23 26 16 18 "
+    },
+    {
+      "game_id": "2384917",
+      "date": "2026-05-03",
+      "time": "12:30:00",
+      "round": "29",
+      "home_team": "Türk Telekom BK",
+      "away_team": "Trabzonspor BK",
       "home_score": null,
       "away_score": null,
       "played": false,
-      "venue": "Ülker Sports Arena",
+      "venue": "Ankara Arena",
       "city": "",
       "season": "2025-2026",
-      "status": "POST",
-      "result": " Fenerbahçe Basketbol Quarters:<br>    <br><br>Besiktas Basketbol Quarters:<br>    "
+      "status": "NS",
+      "result": " Türk Telekom BK Quarters:<br>    <br><br>Trabzonspor BK Quarters:<br>    "
     }
   ]
 }
