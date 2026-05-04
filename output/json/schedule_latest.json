@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-05-03T07:40:32.512184",
+  "export_date": "2026-05-04T08:01:38.105972",
   "season": "2025-2026",
   "league": "Turkish BSL",
   "total_games": 17,
@@ -247,36 +247,36 @@
       "result": " Bursaspor Basketbol Quarters:<br>15 22 17 19 <br><br>Anadolu Efes SK Quarters:<br>24 18 23 28 "
     },
     {
-      "game_id": "2384922",
-      "date": "2026-05-02",
-      "time": "15:00:00",
+      "game_id": "2384923",
+      "date": "2026-05-03",
+      "time": "10:00:00",
       "round": "29",
-      "home_team": "Esenler Erokspor Basketball",
-      "away_team": "Bursaspor Basketbol",
-      "home_score": 82,
-      "away_score": 83,
+      "home_team": "Büyükçekmece Basketbol",
+      "away_team": "Merkezefendi Belediyesi Denizli Basket",
+      "home_score": 87,
+      "away_score": 98,
       "played": true,
-      "venue": "Ahmet Cömert Sport Hall",
+      "venue": "",
       "city": "",
       "season": "2025-2026",
       "status": "FT",
-      "result": " Esenler Erokspor Basketball Quarters:<br>24 25 19 14 <br><br>Bursaspor Basketbol Quarters:<br>23 26 16 18 "
+      "result": " Büyükçekmece Basketbol Quarters:<br>24 27 18 18 <br><br>Merkezefendi Belediyesi Denizli Basket Quarters:<br>33 28 18 19 "
     },
     {
-      "game_id": "2384917",
-      "date": "2026-05-03",
-      "time": "12:30:00",
-      "round": "29",
-      "home_team": "Türk Telekom BK",
-      "away_team": "Trabzonspor BK",
+      "game_id": "2384910",
+      "date": "2026-05-05",
+      "time": "15:00:00",
+      "round": "28",
+      "home_team": "Besiktas Basketbol",
+      "away_team": "Petkim Spor",
       "home_score": null,
       "away_score": null,
       "played": false,
-      "venue": "Ankara Arena",
-      "city": "",
+      "venue": "Besiktas Akatlar Arena",
+      "city": null,
       "season": "2025-2026",
       "status": "NS",
-      "result": " Türk Telekom BK Quarters:<br>    <br><br>Trabzonspor BK Quarters:<br>    "
+      "result": " Besiktas Basketbol Quarters:<br>    <br><br>Petkim Spor Quarters:<br>    "
     }
   ]
 }
