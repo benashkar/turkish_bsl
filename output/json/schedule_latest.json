@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-05-05T07:45:36.664685",
+  "export_date": "2026-05-06T07:52:51.250622",
   "season": "2025-2026",
   "league": "Turkish BSL",
   "total_games": 17,
@@ -20,7 +20,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Anadolu Efes SK Quarters:<br>24 24 18 24 <br><br>Esenler Erokspor Basketball Quarters:<br>15 13 21 27 "
+      "result": null
     },
     {
       "game_id": "2384693",
@@ -36,7 +36,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Bahçeşehir Koleji SK Quarters:<br>23 19 25 26 <br><br>Galatasaray SK Quarters:<br>26 21 19 20 "
+      "result": null
     },
     {
       "game_id": "2384694",
@@ -52,7 +52,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Besiktas Basketbol Quarters:<br>18 24 19 16 <br><br>Türk Telekom BK Quarters:<br>21 12 22 17 "
+      "result": null
     },
     {
       "game_id": "2384695",
@@ -68,7 +68,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Tofaş SK Quarters:<br>18 25 15 22 <br><br>Fenerbahçe Basketbol Quarters:<br>18 21 22 17 "
+      "result": null
     },
     {
       "game_id": "2384696",
@@ -84,7 +84,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Petkim Spor Quarters:<br>24 33 14 14 <br><br>Karşıyaka Basket Quarters:<br>15 16 16 26 "
+      "result": null
     },
     {
       "game_id": "2384697",
@@ -100,7 +100,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Trabzonspor BK Quarters:<br>20 27 17 30 <br><br>Büyükçekmece Basketbol Quarters:<br>19 19 19 19 "
+      "result": null
     },
     {
       "game_id": "2384698",
@@ -116,7 +116,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Manisa BB Quarters:<br>14 15 21 18 <br><br>Mersin MSK Quarters:<br>19 22 24 22 "
+      "result": null
     },
     {
       "game_id": "2384699",
@@ -132,7 +132,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Merkezefendi Belediyesi Denizli Basket Quarters:<br>19 23 10 23 <br><br>Bursaspor Basketbol Quarters:<br>18 17 14 16 "
+      "result": null
     },
     {
       "game_id": "2384700",
@@ -148,7 +148,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Galatasaray SK Quarters:<br>20 29 23 21 <br><br>Tofaş SK Quarters:<br>24 18 21 28 "
+      "result": null
     },
     {
       "game_id": "2384701",
@@ -164,7 +164,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Esenler Erokspor Basketball Quarters:<br>12 15 18 22 <br><br>Trabzonspor BK Quarters:<br>21 23 13 15 "
+      "result": null
     },
     {
       "game_id": "2384702",
@@ -180,7 +180,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Mersin MSK Quarters:<br>22 13 27 24 <br><br>Besiktas Basketbol Quarters:<br>29 29 15 26 "
+      "result": null
     },
     {
       "game_id": "2384703",
@@ -196,7 +196,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Türk Telekom BK Quarters:<br>25 28 22 23 <br><br>Bahçeşehir Koleji SK Quarters:<br>18 31 22 31 "
+      "result": null
     },
     {
       "game_id": "2384704",
@@ -212,7 +212,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Büyükçekmece Basketbol Quarters:<br>17 16 20 16 <br><br>Manisa BB Quarters:<br>25 19 21 24 "
+      "result": null
     },
     {
       "game_id": "2384705",
@@ -228,7 +228,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Karşıyaka Basket Quarters:<br>24 16 18 18 <br><br>Merkezefendi Belediyesi Denizli Basket Quarters:<br>13 15 21 20 "
+      "result": null
     },
     {
       "game_id": "2384706",
@@ -244,23 +244,7 @@
       "city": null,
       "season": "2025-2026",
       "status": "FT",
-      "result": " Bursaspor Basketbol Quarters:<br>15 22 17 19 <br><br>Anadolu Efes SK Quarters:<br>24 18 23 28 "
-    },
-    {
-      "game_id": "2384923",
-      "date": "2026-05-03",
-      "time": "10:00:00",
-      "round": "29",
-      "home_team": "Büyükçekmece Basketbol",
-      "away_team": "Merkezefendi Belediyesi Denizli Basket",
-      "home_score": 87,
-      "away_score": 98,
-      "played": true,
-      "venue": "",
-      "city": "",
-      "season": "2025-2026",
-      "status": "FT",
-      "result": " Büyükçekmece Basketbol Quarters:<br>24 27 18 18 <br><br>Merkezefendi Belediyesi Denizli Basket Quarters:<br>33 28 18 19 "
+      "result": null
     },
     {
       "game_id": "2384910",
@@ -269,14 +253,30 @@
       "round": "28",
       "home_team": "Besiktas Basketbol",
       "away_team": "Petkim Spor",
-      "home_score": null,
-      "away_score": null,
-      "played": false,
+      "home_score": 81,
+      "away_score": 69,
+      "played": true,
       "venue": "Besiktas Akatlar Arena",
       "city": null,
       "season": "2025-2026",
+      "status": "FT",
+      "result": " Besiktas Basketbol Quarters:<br>23 20 21 17 <br><br>Petkim Spor Quarters:<br>21 16 13 19 "
+    },
+    {
+      "game_id": "2384924",
+      "date": "2026-05-08",
+      "time": "16:00:00",
+      "round": "30",
+      "home_team": "Anadolu Efes SK",
+      "away_team": "Büyükçekmece Basketbol",
+      "home_score": null,
+      "away_score": null,
+      "played": false,
+      "venue": "Basketbol Gelişim Merkezi",
+      "city": "",
+      "season": "2025-2026",
       "status": "NS",
-      "result": " Besiktas Basketbol Quarters:<br>    <br><br>Petkim Spor Quarters:<br>    "
+      "result": " Anadolu Efes SK Quarters:<br>    <br><br>Büyükçekmece Basketbol Quarters:<br>    "
     }
   ]
 }
