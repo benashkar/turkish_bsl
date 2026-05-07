@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-05-06T07:56:56.403092",
+  "export_date": "2026-05-07T08:03:58.355133",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 22,
@@ -697,6 +697,21 @@
           "team_score": null,
           "opponent_score": null,
           "result": null
+        },
+        {
+          "date": "2026-05-05",
+          "round": null,
+          "venue": null,
+          "home_team": "Beşiktaş GAİN",
+          "away_team": "Aliağa Petkim Spor",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Aliağa Petkim Spor",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
         }
       ],
       "season": "2025-26",
@@ -1263,6 +1278,21 @@
           "team_score": null,
           "opponent_score": null,
           "result": null
+        },
+        {
+          "date": "2026-04-24",
+          "round": null,
+          "venue": null,
+          "home_team": "Manisa Basket",
+          "away_team": "Fenerbahçe Beko",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Manisa Basket",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
         }
       ],
       "season": "2025-26",
@@ -1705,6 +1735,21 @@
           "played": false,
           "opponent": "Esenler Erokspor",
           "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-04-26",
+          "round": null,
+          "venue": null,
+          "home_team": "Bursaspor Basketbol",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Bursaspor Basketbol",
+          "home_away": "Away",
           "team_score": null,
           "opponent_score": null,
           "result": null
@@ -2191,6 +2236,21 @@
           "team_score": null,
           "opponent_score": null,
           "result": null
+        },
+        {
+          "date": "2026-04-25",
+          "round": null,
+          "venue": null,
+          "home_team": "Bahçeşehir Koleji",
+          "away_team": "Tofaş",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Tofaş",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
         }
       ],
       "season": "2025-26",
@@ -2636,6 +2696,21 @@
           "team_score": null,
           "opponent_score": null,
           "result": null
+        },
+        {
+          "date": "2026-04-25",
+          "round": null,
+          "venue": null,
+          "home_team": "Anadolu Efes",
+          "away_team": "Türk Telekom",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Türk Telekom",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
         }
       ],
       "season": "2025-26",
@@ -3078,6 +3153,21 @@
           "played": false,
           "opponent": "Mersin Spor",
           "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-04-26",
+          "round": null,
+          "venue": null,
+          "home_team": "Bursaspor Basketbol",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "ONVO Büyükçekmece",
+          "home_away": "Home",
           "team_score": null,
           "opponent_score": null,
           "result": null
@@ -3716,6 +3806,21 @@
           "played": false,
           "opponent": "Trabzonspor",
           "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-04-24",
+          "round": null,
+          "venue": null,
+          "home_team": "Manisa Basket",
+          "away_team": "Fenerbahçe Beko",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Manisa Basket",
+          "home_away": "Away",
           "team_score": null,
           "opponent_score": null,
           "result": null
@@ -5172,6 +5277,21 @@
           "team_score": null,
           "opponent_score": null,
           "result": null
+        },
+        {
+          "date": "2026-04-26",
+          "round": null,
+          "venue": null,
+          "home_team": "Bursaspor Basketbol",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Bursaspor Basketbol",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
         }
       ],
       "season": "2025-26",
@@ -5725,6 +5845,21 @@
           "played": false,
           "opponent": "Mersin Spor",
           "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-04-26",
+          "round": null,
+          "venue": null,
+          "home_team": "Bursaspor Basketbol",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "ONVO Büyükçekmece",
+          "home_away": "Home",
           "team_score": null,
           "opponent_score": null,
           "result": null
@@ -6426,6 +6561,21 @@
           "team_score": null,
           "opponent_score": null,
           "result": null
+        },
+        {
+          "date": "2026-05-05",
+          "round": null,
+          "venue": null,
+          "home_team": "Beşiktaş GAİN",
+          "away_team": "Aliağa Petkim Spor",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Aliağa Petkim Spor",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
         }
       ],
       "season": "2025-26",
@@ -6989,6 +7139,21 @@
           "played": false,
           "opponent": "Mersin Spor",
           "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-04-26",
+          "round": null,
+          "venue": null,
+          "home_team": "Bursaspor Basketbol",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "ONVO Büyükçekmece",
+          "home_away": "Home",
           "team_score": null,
           "opponent_score": null,
           "result": null
@@ -7714,6 +7879,21 @@
           "team_score": null,
           "opponent_score": null,
           "result": null
+        },
+        {
+          "date": "2026-04-26",
+          "round": null,
+          "venue": null,
+          "home_team": "Bursaspor Basketbol",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Bursaspor Basketbol",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
         }
       ],
       "season": "2025-26",
@@ -8159,6 +8339,21 @@
           "team_score": null,
           "opponent_score": null,
           "result": null
+        },
+        {
+          "date": "2026-04-26",
+          "round": null,
+          "venue": null,
+          "home_team": "Bursaspor Basketbol",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "ONVO Büyükçekmece",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
         }
       ],
       "season": "2025-26",
@@ -8601,6 +8796,21 @@
           "played": false,
           "opponent": "Mersin Spor",
           "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-04-26",
+          "round": null,
+          "venue": null,
+          "home_team": "Bursaspor Basketbol",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "ONVO Büyükçekmece",
+          "home_away": "Home",
           "team_score": null,
           "opponent_score": null,
           "result": null
@@ -9278,6 +9488,21 @@
           "team_score": null,
           "opponent_score": null,
           "result": null
+        },
+        {
+          "date": "2026-04-25",
+          "round": null,
+          "venue": null,
+          "home_team": "Anadolu Efes",
+          "away_team": "Türk Telekom",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Türk Telekom",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
         }
       ],
       "season": "2025-26",
@@ -9877,6 +10102,21 @@
           "played": false,
           "opponent": "Galatasaray MCT Technic",
           "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-04-25",
+          "round": null,
+          "venue": null,
+          "home_team": "Anadolu Efes",
+          "away_team": "Türk Telekom",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Türk Telekom",
+          "home_away": "Home",
           "team_score": null,
           "opponent_score": null,
           "result": null
