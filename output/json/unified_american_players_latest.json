@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-05-10T07:51:40.357081",
+  "export_date": "2026-05-11T08:21:15.994084",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 22,
@@ -1345,6 +1345,21 @@
       "game_log": [],
       "past_games": [
         {
+          "date": "2026-04-04",
+          "round": null,
+          "venue": null,
+          "home_team": "Mersin Spor",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": 87,
+          "away_score": 94,
+          "played": true,
+          "opponent": "Mersin Spor",
+          "home_away": "Away",
+          "team_score": 94,
+          "opponent_score": 87,
+          "result": "W"
+        },
+        {
           "date": "2026-03-27",
           "round": null,
           "venue": null,
@@ -1706,21 +1721,6 @@
         }
       ],
       "upcoming_games": [
-        {
-          "date": "2026-04-04",
-          "round": null,
-          "venue": null,
-          "home_team": "Mersin Spor",
-          "away_team": "ONVO Büyükçekmece",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Mersin Spor",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        },
         {
           "date": "2026-04-11",
           "round": null,
@@ -4180,17 +4180,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/k90dc71637663323.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 20,
+      "games_played": 21,
       "ppg": 10.9,
-      "rpg": 5.5,
-      "apg": 1.6,
+      "rpg": 5.4,
+      "apg": 1.5,
       "spg": 0.7,
-      "minutes": 25.4,
-      "ft_pct": 64.2,
-      "fg2_pct": 55.8,
-      "fg3_pct": 30.7,
-      "efficiency": 12.2,
+      "minutes": 25.3,
+      "ft_pct": 66.1,
+      "fg2_pct": 55.2,
+      "fg3_pct": 32.3,
+      "efficiency": 12.1,
       "game_log": [
+        {
+          "date": "2026-04-04",
+          "opponent": "Mersin Spor",
+          "home_away": "Away",
+          "minutes": "24:21",
+          "points": 11,
+          "rebounds": 3,
+          "assists": 0,
+          "steals": 0,
+          "turnovers": 0,
+          "efficiency": 11
+        },
         {
           "date": "2026-03-27",
           "opponent": "Türk Telekom",
@@ -4654,17 +4666,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/8jvmna1759315277.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 21,
-      "ppg": 15.7,
+      "games_played": 22,
+      "ppg": 15.5,
       "rpg": 3.5,
       "apg": 1.9,
       "spg": 0.9,
-      "minutes": 27.2,
+      "minutes": 27.1,
       "ft_pct": 70.3,
-      "fg2_pct": 50.7,
-      "fg3_pct": 36.6,
-      "efficiency": 12.7,
+      "fg2_pct": 50.3,
+      "fg3_pct": 37.0,
+      "efficiency": 12.6,
       "game_log": [
+        {
+          "date": "2026-04-04",
+          "opponent": "Mersin Spor",
+          "home_away": "Away",
+          "minutes": "25:14",
+          "points": 11,
+          "rebounds": 2,
+          "assists": 2,
+          "steals": 1,
+          "turnovers": 1,
+          "efficiency": 9
+        },
         {
           "date": "2026-03-27",
           "opponent": "Türk Telekom",
@@ -4919,6 +4943,21 @@
         }
       ],
       "past_games": [
+        {
+          "date": "2026-04-04",
+          "round": null,
+          "venue": null,
+          "home_team": "Mersin Spor",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": 87,
+          "away_score": 94,
+          "played": true,
+          "opponent": "Mersin Spor",
+          "home_away": "Away",
+          "team_score": 94,
+          "opponent_score": 87,
+          "result": "W"
+        },
         {
           "date": "2026-03-27",
           "round": null,
@@ -5281,21 +5320,6 @@
         }
       ],
       "upcoming_games": [
-        {
-          "date": "2026-04-04",
-          "round": null,
-          "venue": null,
-          "home_team": "Mersin Spor",
-          "away_team": "ONVO Büyükçekmece",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Mersin Spor",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        },
         {
           "date": "2026-04-11",
           "round": null,
@@ -7570,6 +7594,21 @@
       ],
       "past_games": [
         {
+          "date": "2026-04-04",
+          "round": null,
+          "venue": null,
+          "home_team": "Mersin Spor",
+          "away_team": "ONVO Büyükçekmece",
+          "home_score": 87,
+          "away_score": 94,
+          "played": true,
+          "opponent": "Mersin Spor",
+          "home_away": "Away",
+          "team_score": 94,
+          "opponent_score": 87,
+          "result": "W"
+        },
+        {
           "date": "2026-03-27",
           "round": null,
           "venue": null,
@@ -7931,21 +7970,6 @@
         }
       ],
       "upcoming_games": [
-        {
-          "date": "2026-04-04",
-          "round": null,
-          "venue": null,
-          "home_team": "Mersin Spor",
-          "away_team": "ONVO Büyükçekmece",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Mersin Spor",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        },
         {
           "date": "2026-04-11",
           "round": null,
