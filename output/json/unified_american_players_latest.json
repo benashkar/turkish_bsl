@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-05-16T07:46:00.845095",
+  "export_date": "2026-05-17T07:57:38.758063",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 22,
@@ -814,7 +814,38 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-05-26",
+          "round": null,
+          "venue": null,
+          "home_team": "Beşiktaş GAİN",
+          "away_team": "Galatasaray MCT Technic",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Galatasaray MCT Technic",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-05-28",
+          "round": null,
+          "venue": null,
+          "home_team": "Galatasaray MCT Technic",
+          "away_team": "Beşiktaş GAİN",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Galatasaray MCT Technic",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -1432,6 +1463,36 @@
           "away_score": null,
           "played": false,
           "opponent": "Bahçeşehir Koleji",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-05-27",
+          "round": null,
+          "venue": null,
+          "home_team": "Fenerbahçe Beko",
+          "away_team": "Esenler Erokspor",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Esenler Erokspor",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-05-29",
+          "round": null,
+          "venue": null,
+          "home_team": "Esenler Erokspor",
+          "away_team": "Fenerbahçe Beko",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Esenler Erokspor",
           "home_away": "Away",
           "team_score": null,
           "opponent_score": null,
@@ -2453,6 +2514,36 @@
           "team_score": null,
           "opponent_score": null,
           "result": null
+        },
+        {
+          "date": "2026-05-26",
+          "round": null,
+          "venue": null,
+          "home_team": "Bahçeşehir Koleji",
+          "away_team": "Trabzonspor",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Trabzonspor",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-05-28",
+          "round": null,
+          "venue": null,
+          "home_team": "Trabzonspor",
+          "away_team": "Bahçeşehir Koleji",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Trabzonspor",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
         }
       ],
       "season": "2025-26",
@@ -2943,7 +3034,38 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-05-27",
+          "round": null,
+          "venue": null,
+          "home_team": "Anadolu Efes",
+          "away_team": "Türk Telekom",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Türk Telekom",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-05-29",
+          "round": null,
+          "venue": null,
+          "home_team": "Türk Telekom",
+          "away_team": "Anadolu Efes",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Türk Telekom",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -4146,6 +4268,36 @@
           "away_score": null,
           "played": false,
           "opponent": "Bahçeşehir Koleji",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-05-27",
+          "round": null,
+          "venue": null,
+          "home_team": "Fenerbahçe Beko",
+          "away_team": "Esenler Erokspor",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Esenler Erokspor",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-05-29",
+          "round": null,
+          "venue": null,
+          "home_team": "Esenler Erokspor",
+          "away_team": "Fenerbahçe Beko",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Esenler Erokspor",
           "home_away": "Away",
           "team_score": null,
           "opponent_score": null,
@@ -7242,7 +7394,38 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-05-26",
+          "round": null,
+          "venue": null,
+          "home_team": "Beşiktaş GAİN",
+          "away_team": "Galatasaray MCT Technic",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Galatasaray MCT Technic",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-05-28",
+          "round": null,
+          "venue": null,
+          "home_team": "Galatasaray MCT Technic",
+          "away_team": "Beşiktaş GAİN",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Galatasaray MCT Technic",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -10458,7 +10641,38 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-05-27",
+          "round": null,
+          "venue": null,
+          "home_team": "Anadolu Efes",
+          "away_team": "Türk Telekom",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Türk Telekom",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-05-29",
+          "round": null,
+          "venue": null,
+          "home_team": "Türk Telekom",
+          "away_team": "Anadolu Efes",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Türk Telekom",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     },
@@ -11188,7 +11402,38 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-05-27",
+          "round": null,
+          "venue": null,
+          "home_team": "Anadolu Efes",
+          "away_team": "Türk Telekom",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Türk Telekom",
+          "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-05-29",
+          "round": null,
+          "venue": null,
+          "home_team": "Türk Telekom",
+          "away_team": "Anadolu Efes",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Türk Telekom",
+          "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        }
+      ],
       "season": "2025-26",
       "league": "Turkish BSL"
     }
