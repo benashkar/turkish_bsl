@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-05-17T07:57:38.758063",
+  "export_date": "2026-05-18T08:33:36.553955",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 22,
@@ -1017,6 +1017,21 @@
       ],
       "past_games": [
         {
+          "date": "2026-05-16",
+          "round": null,
+          "venue": null,
+          "home_team": "Bahçeşehir Koleji",
+          "away_team": "Fenerbahçe Beko",
+          "home_score": 86,
+          "away_score": 96,
+          "played": true,
+          "opponent": "Bahçeşehir Koleji",
+          "home_away": "Away",
+          "team_score": 96,
+          "opponent_score": 86,
+          "result": "W"
+        },
+        {
           "date": "2026-05-13",
           "round": null,
           "venue": null,
@@ -1453,21 +1468,6 @@
         }
       ],
       "upcoming_games": [
-        {
-          "date": "2026-05-16",
-          "round": null,
-          "venue": null,
-          "home_team": "Bahçeşehir Koleji",
-          "away_team": "Fenerbahçe Beko",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Bahçeşehir Koleji",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        },
         {
           "date": "2026-05-27",
           "round": null,
@@ -2064,6 +2064,21 @@
       "game_log": [],
       "past_games": [
         {
+          "date": "2026-05-16",
+          "round": null,
+          "venue": null,
+          "home_team": "Bahçeşehir Koleji",
+          "away_team": "Fenerbahçe Beko",
+          "home_score": 86,
+          "away_score": 96,
+          "played": true,
+          "opponent": "Fenerbahçe Beko",
+          "home_away": "Home",
+          "team_score": 86,
+          "opponent_score": 96,
+          "result": "L"
+        },
+        {
           "date": "2026-05-01",
           "round": null,
           "venue": null,
@@ -2500,21 +2515,6 @@
         }
       ],
       "upcoming_games": [
-        {
-          "date": "2026-05-16",
-          "round": null,
-          "venue": null,
-          "home_team": "Bahçeşehir Koleji",
-          "away_team": "Fenerbahçe Beko",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Fenerbahçe Beko",
-          "home_away": "Home",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        },
         {
           "date": "2026-05-26",
           "round": null,
@@ -3580,17 +3580,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/q38esd1727854102.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 19,
-      "ppg": 9.5,
-      "rpg": 2.8,
+      "games_played": 20,
+      "ppg": 9.8,
+      "rpg": 2.9,
       "apg": 3.1,
       "spg": 0.5,
-      "minutes": 21.3,
-      "ft_pct": 90.0,
-      "fg2_pct": 52.2,
-      "fg3_pct": 35.6,
-      "efficiency": 10.4,
+      "minutes": 21.4,
+      "ft_pct": 90.7,
+      "fg2_pct": 52.7,
+      "fg3_pct": 37.7,
+      "efficiency": 10.8,
       "game_log": [
+        {
+          "date": "2026-05-16",
+          "opponent": "Bahçeşehir Koleji",
+          "home_away": "Away",
+          "minutes": "23:41",
+          "points": 16,
+          "rebounds": 4,
+          "assists": 2,
+          "steals": 0,
+          "turnovers": 2,
+          "efficiency": 18
+        },
         {
           "date": "2026-04-24",
           "opponent": "Manisa Basket",
@@ -3821,6 +3833,21 @@
         }
       ],
       "past_games": [
+        {
+          "date": "2026-05-16",
+          "round": null,
+          "venue": null,
+          "home_team": "Bahçeşehir Koleji",
+          "away_team": "Fenerbahçe Beko",
+          "home_score": 86,
+          "away_score": 96,
+          "played": true,
+          "opponent": "Bahçeşehir Koleji",
+          "home_away": "Away",
+          "team_score": 96,
+          "opponent_score": 86,
+          "result": "W"
+        },
         {
           "date": "2026-05-13",
           "round": null,
@@ -4258,21 +4285,6 @@
         }
       ],
       "upcoming_games": [
-        {
-          "date": "2026-05-16",
-          "round": null,
-          "venue": null,
-          "home_team": "Bahçeşehir Koleji",
-          "away_team": "Fenerbahçe Beko",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Bahçeşehir Koleji",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        },
         {
           "date": "2026-05-27",
           "round": null,

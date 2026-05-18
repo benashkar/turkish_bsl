@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-05-17T07:57:38.780277",
+  "export_date": "2026-05-18T08:33:36.576487",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 22,
@@ -159,9 +159,9 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/q38esd1727854102.jpg",
-      "games_played": 19,
-      "ppg": 9.5,
-      "rpg": 2.8,
+      "games_played": 20,
+      "ppg": 9.8,
+      "rpg": 2.9,
       "apg": 3.1
     },
     {
