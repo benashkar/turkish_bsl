@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-05-28T08:24:46.719123",
+  "export_date": "2026-05-29T08:23:26.341883",
   "season": "2025-2026",
   "league": "Turkish BSL",
   "total_games": 17,
@@ -247,36 +247,36 @@
       "result": null
     },
     {
-      "game_id": "2474785",
-      "date": "2026-05-27",
+      "game_id": "2474787",
+      "date": "2026-05-28",
       "time": "17:30:00",
       "round": "0",
-      "home_team": "Fenerbahçe Basketbol",
-      "away_team": "Esenler Erokspor Basketball",
-      "home_score": 94,
-      "away_score": 72,
+      "home_team": "Galatasaray SK",
+      "away_team": "Besiktas Basketbol",
+      "home_score": 78,
+      "away_score": 75,
       "played": true,
-      "venue": "Ülker Sports Arena",
+      "venue": "Basketbol Gelişim Merkezi",
       "city": "",
       "season": "2025-2026",
       "status": "FT",
-      "result": " Fenerbahçe Basketbol Quarters:<br>28 17 21 28 <br><br>Esenler Erokspor Basketball Quarters:<br>19 13 17 23 "
+      "result": " Galatasaray SK Quarters:<br>21 11   <br><br>Besiktas Basketbol Quarters:<br>23 12   "
     },
     {
-      "game_id": "2474786",
-      "date": "2026-05-28",
+      "game_id": "2474788",
+      "date": "2026-05-29",
       "time": "15:00:00",
       "round": "0",
-      "home_team": "Trabzonspor BK",
-      "away_team": "Bahçeşehir Koleji SK",
+      "home_team": "Türk Telekom BK",
+      "away_team": "Anadolu Efes SK",
       "home_score": null,
       "away_score": null,
       "played": false,
-      "venue": "Hayri Gür Arena",
+      "venue": "Ankara Arena",
       "city": "",
       "season": "2025-2026",
       "status": "NS",
-      "result": " Trabzonspor BK Quarters:<br>    <br><br>Bahçeşehir Koleji SK Quarters:<br>    "
+      "result": "Türk Telekom BK Quarters:<br>    <br><br>Anadolu Efes SK Quarters:<br>"
     }
   ]
 }
