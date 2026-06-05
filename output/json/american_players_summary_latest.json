@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-06-04T08:39:13.123381",
+  "export_date": "2026-06-05T08:32:23.690437",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 22,
@@ -19,10 +19,10 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/k1n1go1580034638.jpg",
-      "games_played": 28,
-      "ppg": 9.8,
+      "games_played": 30,
+      "ppg": 9.6,
       "rpg": 4.3,
-      "apg": 2.6
+      "apg": 2.5
     },
     {
       "code": "34165694",
@@ -39,9 +39,9 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/0vo94u1742381888.jpg",
-      "games_played": 11,
-      "ppg": 7.9,
-      "rpg": 3.4,
+      "games_played": 12,
+      "ppg": 7.8,
+      "rpg": 3.7,
       "apg": 0.5
     },
     {
@@ -159,9 +159,9 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/q38esd1727854102.jpg",
-      "games_played": 21,
-      "ppg": 9.8,
-      "rpg": 2.9,
+      "games_played": 22,
+      "ppg": 9.6,
+      "rpg": 3.0,
       "apg": 3.1
     },
     {
@@ -199,10 +199,10 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/ke3gpt1739746415.jpg",
-      "games_played": 26,
-      "ppg": 15.0,
-      "rpg": 3.2,
-      "apg": 2.1
+      "games_played": 28,
+      "ppg": 14.8,
+      "rpg": 3.1,
+      "apg": 2.0
     },
     {
       "code": "34194587",
@@ -319,10 +319,10 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/pw51ka1676717993.jpg",
-      "games_played": 26,
-      "ppg": 14.5,
-      "rpg": 2.2,
-      "apg": 2.9
+      "games_played": 28,
+      "ppg": 14.1,
+      "rpg": 2.3,
+      "apg": 2.8
     },
     {
       "code": "34230965",
@@ -359,10 +359,10 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/pf3e121637660345.jpg",
-      "games_played": 30,
-      "ppg": 15.0,
-      "rpg": 1.9,
-      "apg": 5.8
+      "games_played": 31,
+      "ppg": 14.6,
+      "rpg": 1.8,
+      "apg": 5.7
     },
     {
       "code": "34179807",
@@ -419,10 +419,10 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/nvtxnd1745081065.jpg",
-      "games_played": 23,
-      "ppg": 5.4,
-      "rpg": 3.3,
-      "apg": 4.3
+      "games_played": 24,
+      "ppg": 5.3,
+      "rpg": 3.6,
+      "apg": 4.2
     },
     {
       "code": "34164659",
@@ -439,10 +439,10 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/ozhkuy1729258259.jpg",
-      "games_played": 21,
+      "games_played": 22,
       "ppg": 9.2,
       "rpg": 3.0,
-      "apg": 3.0
+      "apg": 2.9
     }
   ]
 }
