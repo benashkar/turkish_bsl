@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-06-05T08:32:23.690437",
+  "export_date": "2026-06-06T08:06:55.361485",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 22,
@@ -19,9 +19,9 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/k1n1go1580034638.jpg",
-      "games_played": 30,
-      "ppg": 9.6,
-      "rpg": 4.3,
+      "games_played": 32,
+      "ppg": 9.5,
+      "rpg": 4.2,
       "apg": 2.5
     },
     {
@@ -39,9 +39,9 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/0vo94u1742381888.jpg",
-      "games_played": 12,
-      "ppg": 7.8,
-      "rpg": 3.7,
+      "games_played": 13,
+      "ppg": 7.4,
+      "rpg": 3.6,
       "apg": 0.5
     },
     {
@@ -159,10 +159,10 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/q38esd1727854102.jpg",
-      "games_played": 22,
-      "ppg": 9.6,
-      "rpg": 3.0,
-      "apg": 3.1
+      "games_played": 24,
+      "ppg": 9.3,
+      "rpg": 3.1,
+      "apg": 3.3
     },
     {
       "code": "34196180",
@@ -319,10 +319,10 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/pw51ka1676717993.jpg",
-      "games_played": 28,
-      "ppg": 14.1,
+      "games_played": 30,
+      "ppg": 13.8,
       "rpg": 2.3,
-      "apg": 2.8
+      "apg": 2.7
     },
     {
       "code": "34230965",
@@ -419,10 +419,10 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/nvtxnd1745081065.jpg",
-      "games_played": 24,
-      "ppg": 5.3,
-      "rpg": 3.6,
-      "apg": 4.2
+      "games_played": 26,
+      "ppg": 5.1,
+      "rpg": 3.5,
+      "apg": 4.0
     },
     {
       "code": "34164659",
@@ -439,10 +439,10 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/ozhkuy1729258259.jpg",
-      "games_played": 22,
-      "ppg": 9.2,
-      "rpg": 3.0,
-      "apg": 2.9
+      "games_played": 24,
+      "ppg": 9.7,
+      "rpg": 3.1,
+      "apg": 2.8
     }
   ]
 }
