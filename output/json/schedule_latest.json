@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-06-06T07:59:58.670651",
+  "export_date": "2026-06-07T08:15:21.465225",
   "season": "2025-2026",
   "league": "Turkish BSL",
   "total_games": 17,
@@ -247,36 +247,36 @@
       "result": null
     },
     {
-      "game_id": "2478596",
-      "date": "2026-06-05",
-      "time": "17:00:00",
-      "round": "0",
-      "home_team": "Anadolu Efes SK",
-      "away_team": "Fenerbahçe Basketbol",
-      "home_score": 102,
-      "away_score": 93,
-      "played": true,
-      "venue": "Basketbol Gelişim Merkezi",
-      "city": "",
-      "season": "2025-2026",
-      "status": "FT",
-      "result": " Anadolu Efes SK Quarters:<br>29 20 27 26 <br><br>Fenerbahçe Basketbol Quarters:<br>26 24 17 26 "
-    },
-    {
       "game_id": "2478918",
       "date": "2026-06-06",
       "time": "17:00:00",
       "round": "0",
       "home_team": "Bahçeşehir Koleji SK",
       "away_team": "Besiktas Basketbol",
-      "home_score": null,
-      "away_score": null,
-      "played": false,
+      "home_score": 98,
+      "away_score": 95,
+      "played": true,
       "venue": "Sinan Erdem Dome",
       "city": "",
       "season": "2025-2026",
+      "status": "AOT",
+      "result": " Bahçeşehir Koleji SK Quarters:<br>22 18 23 15 20<br><br>Besiktas Basketbol Quarters:<br>15 31 12 20 17"
+    },
+    {
+      "game_id": "2481934",
+      "date": "2026-06-07",
+      "time": "17:00:00",
+      "round": "0",
+      "home_team": "Anadolu Efes SK",
+      "away_team": "Fenerbahçe Basketbol",
+      "home_score": null,
+      "away_score": null,
+      "played": false,
+      "venue": "Basketbol Gelişim Merkezi",
+      "city": null,
+      "season": "2025-2026",
       "status": "NS",
-      "result": " Bahçeşehir Koleji SK Quarters:<br>    <br><br>Besiktas Basketbol Quarters:<br>    "
+      "result": " Anadolu Efes SK Quarters:<br>    <br><br>Fenerbahçe Basketbol Quarters:<br>    "
     }
   ]
 }
