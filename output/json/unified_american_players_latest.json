@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-06-08T08:45:09.320089",
+  "export_date": "2026-06-09T08:24:29.424597",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 22,
@@ -976,6 +976,21 @@
           "played": false,
           "opponent": "Bahçeşehir Koleji",
           "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-06-10",
+          "round": null,
+          "venue": null,
+          "home_team": "Beşiktaş GAİN",
+          "away_team": "Bahçeşehir Koleji",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Bahçeşehir Koleji",
+          "home_away": "Home",
           "team_score": null,
           "opponent_score": null,
           "result": null
@@ -2820,6 +2835,21 @@
           "played": false,
           "opponent": "Beşiktaş GAİN",
           "home_away": "Home",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-06-10",
+          "round": null,
+          "venue": null,
+          "home_team": "Beşiktaş GAİN",
+          "away_team": "Bahçeşehir Koleji",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Beşiktaş GAİN",
+          "home_away": "Away",
           "team_score": null,
           "opponent_score": null,
           "result": null
@@ -8051,6 +8081,21 @@
           "played": false,
           "opponent": "Bahçeşehir Koleji",
           "home_away": "Away",
+          "team_score": null,
+          "opponent_score": null,
+          "result": null
+        },
+        {
+          "date": "2026-06-10",
+          "round": null,
+          "venue": null,
+          "home_team": "Beşiktaş GAİN",
+          "away_team": "Bahçeşehir Koleji",
+          "home_score": null,
+          "away_score": null,
+          "played": false,
+          "opponent": "Bahçeşehir Koleji",
+          "home_away": "Home",
           "team_score": null,
           "opponent_score": null,
           "result": null
