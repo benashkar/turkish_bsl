@@ -1,10 +1,10 @@
 {
-  "export_date": "2026-06-11T11:26:08.344162",
+  "export_date": "2026-06-12T11:05:20.021824",
   "season": "2025-2026",
   "league": "Turkish BSL",
-  "total_games": 16,
+  "total_games": 17,
   "played": 16,
-  "upcoming": 0,
+  "upcoming": 1,
   "games": [
     {
       "game_id": "2384692",
@@ -261,6 +261,22 @@
       "season": "2025-2026",
       "status": "FT",
       "result": " Besiktas Basketbol Quarters:<br>19 16 23 22 <br><br>Bahçeşehir Koleji SK Quarters:<br>13 26 20 12 "
+    },
+    {
+      "game_id": "2488703",
+      "date": "2026-06-13",
+      "time": "17:00:00",
+      "round": "0",
+      "home_team": "Fenerbahçe Basketbol",
+      "away_team": "Besiktas Basketbol",
+      "home_score": null,
+      "away_score": null,
+      "played": false,
+      "venue": "Ülker Sports Arena",
+      "city": null,
+      "season": "2025-2026",
+      "status": "NS",
+      "result": " Fenerbahçe Basketbol Quarters:<br>    <br><br>Besiktas Basketbol Quarters:<br>    "
     }
   ]
 }
