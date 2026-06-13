@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-06-12T11:05:20.021824",
+  "export_date": "2026-06-13T10:05:43.634427",
   "season": "2025-2026",
   "league": "Turkish BSL",
   "total_games": 17,
@@ -273,7 +273,7 @@
       "away_score": null,
       "played": false,
       "venue": "Ülker Sports Arena",
-      "city": null,
+      "city": "",
       "season": "2025-2026",
       "status": "NS",
       "result": " Fenerbahçe Basketbol Quarters:<br>    <br><br>Besiktas Basketbol Quarters:<br>    "
