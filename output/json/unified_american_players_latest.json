@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-06-14T10:33:56.175273",
+  "export_date": "2026-06-15T13:27:40.439210",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 22,
@@ -26,17 +26,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/k1n1go1580034638.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 35,
-      "ppg": 9.6,
-      "rpg": 4.3,
+      "games_played": 36,
+      "ppg": 9.7,
+      "rpg": 4.2,
       "apg": 2.5,
       "spg": 0.7,
-      "minutes": 24.1,
-      "ft_pct": 85.2,
-      "fg2_pct": 44.8,
-      "fg3_pct": 43.7,
+      "minutes": 24.3,
+      "ft_pct": 86.4,
+      "fg2_pct": 45.5,
+      "fg3_pct": 43.2,
       "efficiency": 11.9,
       "game_log": [
+        {
+          "date": "2026-06-13",
+          "opponent": "Fenerbahçe Beko",
+          "home_away": "Away",
+          "minutes": "30:24",
+          "points": 14,
+          "rebounds": 2,
+          "assists": 3,
+          "steals": 1,
+          "turnovers": 1,
+          "efficiency": 14
+        },
         {
           "date": "2026-06-10",
           "opponent": "Bahçeşehir Koleji",
@@ -459,6 +471,21 @@
         }
       ],
       "past_games": [
+        {
+          "date": "2026-06-13",
+          "round": null,
+          "venue": null,
+          "home_team": "Fenerbahçe Beko",
+          "away_team": "Beşiktaş GAİN",
+          "home_score": 80,
+          "away_score": 88,
+          "played": true,
+          "opponent": "Fenerbahçe Beko",
+          "home_away": "Away",
+          "team_score": 88,
+          "opponent_score": 80,
+          "result": "W"
+        },
         {
           "date": "2026-06-10",
           "round": null,
@@ -1032,21 +1059,6 @@
       ],
       "upcoming_games": [
         {
-          "date": "2026-06-13",
-          "round": null,
-          "venue": null,
-          "home_team": "Fenerbahçe Beko",
-          "away_team": "Beşiktaş GAİN",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Fenerbahçe Beko",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        },
-        {
           "date": "2026-06-15",
           "round": null,
           "venue": null,
@@ -1271,6 +1283,21 @@
         }
       ],
       "past_games": [
+        {
+          "date": "2026-06-13",
+          "round": null,
+          "venue": null,
+          "home_team": "Fenerbahçe Beko",
+          "away_team": "Beşiktaş GAİN",
+          "home_score": 80,
+          "away_score": 88,
+          "played": true,
+          "opponent": "Beşiktaş GAİN",
+          "home_away": "Home",
+          "team_score": 80,
+          "opponent_score": 88,
+          "result": "L"
+        },
         {
           "date": "2026-06-07",
           "round": null,
@@ -1813,21 +1840,6 @@
         }
       ],
       "upcoming_games": [
-        {
-          "date": "2026-06-13",
-          "round": null,
-          "venue": null,
-          "home_team": "Fenerbahçe Beko",
-          "away_team": "Beşiktaş GAİN",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Beşiktaş GAİN",
-          "home_away": "Home",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        },
         {
           "date": "2026-06-15",
           "round": null,
@@ -4073,17 +4085,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/q38esd1727854102.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 26,
+      "games_played": 27,
       "ppg": 9.3,
       "rpg": 3.2,
-      "apg": 3.4,
+      "apg": 3.3,
       "spg": 0.5,
-      "minutes": 22.9,
-      "ft_pct": 90.9,
-      "fg2_pct": 47.3,
+      "minutes": 23.2,
+      "ft_pct": 91.0,
+      "fg2_pct": 48.5,
       "fg3_pct": 39.0,
       "efficiency": 10.7,
       "game_log": [
+        {
+          "date": "2026-06-13",
+          "opponent": "Beşiktaş GAİN",
+          "home_away": "Home",
+          "minutes": "29:08",
+          "points": 9,
+          "rebounds": 3,
+          "assists": 3,
+          "steals": 0,
+          "turnovers": 2,
+          "efficiency": 11
+        },
         {
           "date": "2026-06-07",
           "opponent": "Anadolu Efes",
@@ -4398,6 +4422,21 @@
         }
       ],
       "past_games": [
+        {
+          "date": "2026-06-13",
+          "round": null,
+          "venue": null,
+          "home_team": "Fenerbahçe Beko",
+          "away_team": "Beşiktaş GAİN",
+          "home_score": 80,
+          "away_score": 88,
+          "played": true,
+          "opponent": "Beşiktaş GAİN",
+          "home_away": "Home",
+          "team_score": 80,
+          "opponent_score": 88,
+          "result": "L"
+        },
         {
           "date": "2026-06-07",
           "round": null,
@@ -4940,21 +4979,6 @@
         }
       ],
       "upcoming_games": [
-        {
-          "date": "2026-06-13",
-          "round": null,
-          "venue": null,
-          "home_team": "Fenerbahçe Beko",
-          "away_team": "Beşiktaş GAİN",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Beşiktaş GAİN",
-          "home_away": "Home",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        },
         {
           "date": "2026-06-15",
           "round": null,
@@ -7348,17 +7372,29 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/pw51ka1676717993.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 33,
-      "ppg": 13.8,
+      "games_played": 34,
+      "ppg": 13.6,
       "rpg": 2.4,
       "apg": 2.6,
       "spg": 1.2,
-      "minutes": 25.3,
+      "minutes": 25.2,
       "ft_pct": 79.2,
-      "fg2_pct": 47.8,
-      "fg3_pct": 35.6,
-      "efficiency": 10.7,
+      "fg2_pct": 48.1,
+      "fg3_pct": 35.8,
+      "efficiency": 10.6,
       "game_log": [
+        {
+          "date": "2026-06-13",
+          "opponent": "Fenerbahçe Beko",
+          "home_away": "Away",
+          "minutes": "21:44",
+          "points": 9,
+          "rebounds": 2,
+          "assists": 2,
+          "steals": 0,
+          "turnovers": 2,
+          "efficiency": 8
+        },
         {
           "date": "2026-06-10",
           "opponent": "Bahçeşehir Koleji",
@@ -7757,6 +7793,21 @@
         }
       ],
       "past_games": [
+        {
+          "date": "2026-06-13",
+          "round": null,
+          "venue": null,
+          "home_team": "Fenerbahçe Beko",
+          "away_team": "Beşiktaş GAİN",
+          "home_score": 80,
+          "away_score": 88,
+          "played": true,
+          "opponent": "Fenerbahçe Beko",
+          "home_away": "Away",
+          "team_score": 88,
+          "opponent_score": 80,
+          "result": "W"
+        },
         {
           "date": "2026-06-10",
           "round": null,
@@ -8329,21 +8380,6 @@
         }
       ],
       "upcoming_games": [
-        {
-          "date": "2026-06-13",
-          "round": null,
-          "venue": null,
-          "home_team": "Fenerbahçe Beko",
-          "away_team": "Beşiktaş GAİN",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Fenerbahçe Beko",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        },
         {
           "date": "2026-06-15",
           "round": null,

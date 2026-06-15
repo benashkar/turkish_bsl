@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-06-14T10:33:56.199412",
+  "export_date": "2026-06-15T13:27:40.462417",
   "season": "2025-26",
   "league": "Turkish BSL",
   "player_count": 22,
@@ -19,9 +19,9 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/k1n1go1580034638.jpg",
-      "games_played": 35,
-      "ppg": 9.6,
-      "rpg": 4.3,
+      "games_played": 36,
+      "ppg": 9.7,
+      "rpg": 4.2,
       "apg": 2.5
     },
     {
@@ -159,10 +159,10 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/q38esd1727854102.jpg",
-      "games_played": 26,
+      "games_played": 27,
       "ppg": 9.3,
       "rpg": 3.2,
-      "apg": 3.4
+      "apg": 3.3
     },
     {
       "code": "34196180",
@@ -319,8 +319,8 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/pw51ka1676717993.jpg",
-      "games_played": 33,
-      "ppg": 13.8,
+      "games_played": 34,
+      "ppg": 13.6,
       "rpg": 2.4,
       "apg": 2.6
     },
