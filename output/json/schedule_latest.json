@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-06-16T12:15:42.633669",
+  "export_date": "2026-06-17T08:48:17.354758",
   "season": "2025-2026",
   "league": "Turkish BSL",
   "total_games": 7,
@@ -100,7 +100,7 @@
       "city": "",
       "season": "2025-2026",
       "status": "FT",
-      "result": "Fenerbahçe Basketbol Quarters:<br>23 27 22 21 <br><br>Besiktas Basketbol Quarters:<br>18 19 14 17"
+      "result": " Fenerbahçe Basketbol Quarters:<br>23 27 22 21 <br><br>Besiktas Basketbol Quarters:<br>18 19 14 17 "
     },
     {
       "game_id": "2488705",
@@ -116,7 +116,7 @@
       "city": "",
       "season": "2025-2026",
       "status": "NS",
-      "result": "Besiktas Basketbol Quarters:<br>    <br><br>Fenerbahçe Basketbol Quarters:<br>"
+      "result": " Besiktas Basketbol Quarters:<br>    <br><br>Fenerbahçe Basketbol Quarters:<br>    "
     }
   ]
 }
