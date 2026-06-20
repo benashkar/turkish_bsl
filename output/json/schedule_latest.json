@@ -1,10 +1,10 @@
 {
-  "export_date": "2026-06-19T08:51:41.895838",
+  "export_date": "2026-06-20T08:13:41.140995",
   "season": "2025-2026",
   "league": "Turkish BSL",
-  "total_games": 7,
+  "total_games": 6,
   "played": 6,
-  "upcoming": 1,
+  "upcoming": 0,
   "games": [
     {
       "game_id": "2384692",
@@ -87,36 +87,20 @@
       "result": null
     },
     {
-      "game_id": "2488705",
-      "date": "2026-06-17",
-      "time": "17:00:00",
-      "round": "200",
-      "home_team": "Besiktas Basketbol",
-      "away_team": "Fenerbahçe Basketbol",
-      "home_score": 71,
-      "away_score": 82,
-      "played": true,
-      "venue": "Besiktas Akatlar Arena",
-      "city": "",
-      "season": "2025-2026",
-      "status": "FT",
-      "result": " Besiktas Basketbol Quarters:<br>23 17 18 13 <br><br>Fenerbahçe Basketbol Quarters:<br>19 24 21 18 "
-    },
-    {
       "game_id": "2491123",
       "date": "2026-06-19",
       "time": "17:00:00",
       "round": "200",
       "home_team": "Besiktas Basketbol",
       "away_team": "Fenerbahçe Basketbol",
-      "home_score": null,
-      "away_score": null,
-      "played": false,
+      "home_score": 75,
+      "away_score": 77,
+      "played": true,
       "venue": "Besiktas Akatlar Arena",
       "city": "",
       "season": "2025-2026",
-      "status": "NS",
-      "result": " Besiktas Basketbol Quarters:<br>    <br><br>Fenerbahçe Basketbol Quarters:<br>    "
+      "status": "FT",
+      "result": " Besiktas Basketbol Quarters:<br>20 25 15 15 <br><br>Fenerbahçe Basketbol Quarters:<br>16 24 16 21 "
     }
   ]
 }
