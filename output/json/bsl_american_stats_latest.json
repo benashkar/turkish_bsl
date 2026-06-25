@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-06-24T08:24:00.148750",
+  "export_date": "2026-06-25T08:24:30.265128",
   "season": "2025-26",
   "league": "Turkish BSL",
   "source": "tblstat.net",
@@ -532,6 +532,18 @@
           "steals": 0,
           "turnovers": 1,
           "efficiency": 15
+        },
+        {
+          "date": "2026-04-27",
+          "opponent": "Yukatel Merkezefendi Bld.",
+          "home_away": "Away",
+          "minutes": "23:47",
+          "points": 16,
+          "rebounds": 3,
+          "assists": 9,
+          "steals": 0,
+          "turnovers": 5,
+          "efficiency": 18
         },
         {
           "date": "2026-04-18",
