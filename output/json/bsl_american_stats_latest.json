@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-07-05T08:08:58.940879",
+  "export_date": "2026-07-06T08:41:53.249757",
   "season": "2025-26",
   "league": "Turkish BSL",
   "source": "tblstat.net",
@@ -8811,9 +8811,7 @@
           "turnovers": 1,
           "efficiency": 16
         }
-      ],
-      "player_code": "34164659",
-      "matched": true
+      ]
     },
     {
       "tblstat_id": "3769",
