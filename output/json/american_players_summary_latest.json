@@ -1,8 +1,8 @@
 {
-  "export_date": "2026-07-10T08:17:27.499955",
+  "export_date": "2026-07-11T07:42:30.046963",
   "season": "2025-26",
   "league": "Turkish BSL",
-  "player_count": 21,
+  "player_count": 22,
   "players": [
     {
       "code": "34169649",
@@ -303,6 +303,26 @@
       "ppg": 6.6,
       "rpg": 1.0,
       "apg": 1.3
+    },
+    {
+      "code": "34229974",
+      "name": "Johnny Davis",
+      "team": "Manisa BB",
+      "team_code": "147001",
+      "position": "Shooting Guard",
+      "jersey": "",
+      "height_feet": null,
+      "height_inches": null,
+      "birth_date": "2002-02-27",
+      "hometown": null,
+      "hometown_state": null,
+      "college": null,
+      "high_school": null,
+      "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/32wji21710446973.jpg",
+      "games_played": 0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0
     },
     {
       "code": "34215852",
