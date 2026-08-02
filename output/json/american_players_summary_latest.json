@@ -1,8 +1,8 @@
 {
-  "export_date": "2026-08-01T07:54:26.193217",
+  "export_date": "2026-08-02T07:55:20.833220",
   "season": "2025-26",
   "league": "Turkish BSL",
-  "player_count": 23,
+  "player_count": 24,
   "players": [
     {
       "code": "34169649",
@@ -319,6 +319,26 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/32wji21710446973.jpg",
+      "games_played": 0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0
+    },
+    {
+      "code": "34229805",
+      "name": "Johnny Juzang",
+      "team": "Fenerbahçe Basketbol",
+      "team_code": "136071",
+      "position": "Shooting Guard",
+      "jersey": "",
+      "height_feet": null,
+      "height_inches": null,
+      "birth_date": "2001-03-17",
+      "hometown": null,
+      "hometown_state": null,
+      "college": null,
+      "high_school": null,
+      "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/29enez1710275352.jpg",
       "games_played": 0,
       "ppg": 0.0,
       "rpg": 0.0,
