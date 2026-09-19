@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-09-18T07:21:16.730442",
+  "export_date": "2026-09-19T07:18:13.549864",
   "season": "2025-2026",
   "league": "Turkish BSL",
   "total_games": 7,
@@ -113,10 +113,10 @@
       "away_score": null,
       "played": false,
       "venue": "",
-      "city": null,
+      "city": "",
       "season": "2026-2027",
       "status": "NS",
-      "result": " Manisa BB Quarters:<br>    <br><br>Esenler Erokspor Basketball Quarters:<br>    "
+      "result": "Manisa BB Quarters:<br>    <br><br>Esenler Erokspor Basketball Quarters:<br>"
     }
   ]
 }
