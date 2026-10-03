@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-10-02T07:25:27.104100",
+  "export_date": "2026-10-03T07:23:42.472434",
   "season": "2025-2026",
   "league": "Turkish BSL",
   "total_games": 7,
@@ -87,36 +87,36 @@
       "result": null
     },
     {
-      "game_id": "2571201",
-      "date": "2026-09-27",
-      "time": "17:30:00",
-      "round": "1",
-      "home_team": "Anadolu Efes SK",
-      "away_team": "Besiktas Basketbol",
-      "home_score": 95,
-      "away_score": 81,
+      "game_id": "2571211",
+      "date": "2026-10-02",
+      "time": "16:00:00",
+      "round": "2",
+      "home_team": "Karşıyaka Basket",
+      "away_team": "Galatasaray SK",
+      "home_score": 78,
+      "away_score": 71,
       "played": true,
-      "venue": "Basketbol Gelişim Merkezi",
+      "venue": "Karşıyaka Arena",
       "city": "",
       "season": "2026-2027",
-      "status": "FT",
-      "result": " Anadolu Efes SK Quarters:<br>20 26 29 20 <br><br>Besiktas Basketbol Quarters:<br>16 21 22 22 "
+      "status": "AOT",
+      "result": " Karşıyaka Basket Quarters:<br>18 17 15 15 13<br><br>Galatasaray SK Quarters:<br>13 21 14 17 6"
     },
     {
-      "game_id": "2571210",
-      "date": "2026-10-02",
-      "time": "15:00:00",
+      "game_id": "2571214",
+      "date": "2026-10-03",
+      "time": "12:30:00",
       "round": "2",
-      "home_team": "Merkezefendi Belediyesi Denizli Basket",
-      "away_team": "Tofaş SK",
+      "home_team": "Bursaspor Basketbol",
+      "away_team": "Türk Telekom BK",
       "home_score": null,
       "away_score": null,
       "played": false,
-      "venue": "Pamukkale University Arena",
+      "venue": "Tofaş Spor Salonu",
       "city": "",
       "season": "2026-2027",
       "status": "NS",
-      "result": "Merkezefendi Belediyesi Denizli Basket Quarters:<br>    <br><br>Tofaş SK Quarters:<br>"
+      "result": " Bursaspor Basketbol Quarters:<br>    <br><br>Türk Telekom BK Quarters:<br>    "
     }
   ]
 }
