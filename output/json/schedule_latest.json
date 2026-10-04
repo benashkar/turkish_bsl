@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-10-03T07:23:42.472434",
+  "export_date": "2026-10-04T09:08:57.667289",
   "season": "2025-2026",
   "league": "Turkish BSL",
   "total_games": 7,
@@ -87,36 +87,36 @@
       "result": null
     },
     {
-      "game_id": "2571211",
-      "date": "2026-10-02",
-      "time": "16:00:00",
+      "game_id": "2571209",
+      "date": "2026-10-03",
+      "time": "15:00:00",
       "round": "2",
-      "home_team": "Karşıyaka Basket",
-      "away_team": "Galatasaray SK",
-      "home_score": 78,
-      "away_score": 71,
+      "home_team": "Esenler Erokspor Basketball",
+      "away_team": "Petkim Spor",
+      "home_score": 96,
+      "away_score": 87,
       "played": true,
-      "venue": "Karşıyaka Arena",
+      "venue": "Ahmet Cömert Sport Hall",
       "city": "",
       "season": "2026-2027",
-      "status": "AOT",
-      "result": " Karşıyaka Basket Quarters:<br>18 17 15 15 13<br><br>Galatasaray SK Quarters:<br>13 21 14 17 6"
+      "status": "FT",
+      "result": " Esenler Erokspor Basketball Quarters:<br>26 19 17 34 <br><br>Petkim Spor Quarters:<br>20 25 16 26 "
     },
     {
-      "game_id": "2571214",
-      "date": "2026-10-03",
-      "time": "12:30:00",
+      "game_id": "2571213",
+      "date": "2026-10-04",
+      "time": "10:00:00",
       "round": "2",
-      "home_team": "Bursaspor Basketbol",
-      "away_team": "Türk Telekom BK",
+      "home_team": "Çayirova",
+      "away_team": "Bahçeşehir Koleji SK",
       "home_score": null,
       "away_score": null,
       "played": false,
-      "venue": "Tofaş Spor Salonu",
+      "venue": "",
       "city": "",
       "season": "2026-2027",
       "status": "NS",
-      "result": " Bursaspor Basketbol Quarters:<br>    <br><br>Türk Telekom BK Quarters:<br>    "
+      "result": "Çayirova Quarters:<br>    <br><br>Bahçeşehir Koleji SK Quarters:<br>"
     }
   ]
 }
