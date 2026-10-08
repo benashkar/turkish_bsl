@@ -1,8 +1,8 @@
 {
-  "export_date": "2026-10-07T07:32:19.342815",
+  "export_date": "2026-10-08T07:33:52.574369",
   "season": "2025-26",
   "league": "Turkish BSL",
-  "player_count": 26,
+  "player_count": 25,
   "players": [
     {
       "code": "34169649",
@@ -119,26 +119,6 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/d7zqbw1731163963.jpg",
-      "games_played": 0,
-      "ppg": 0.0,
-      "rpg": 0.0,
-      "apg": 0.0
-    },
-    {
-      "code": "34172364",
-      "name": "Cole Swider",
-      "team": "Anadolu Efes SK",
-      "team_code": "136066",
-      "position": "Power Forward",
-      "jersey": "21",
-      "height_feet": null,
-      "height_inches": null,
-      "birth_date": "1999-05-08",
-      "hometown": null,
-      "hometown_state": null,
-      "college": null,
-      "high_school": null,
-      "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/kckybc1703958391.jpg",
       "games_played": 0,
       "ppg": 0.0,
       "rpg": 0.0,
