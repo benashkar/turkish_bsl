@@ -1,10 +1,10 @@
 {
-  "export_date": "2026-10-10T07:22:07.448885",
+  "export_date": "2026-10-11T07:23:42.812365",
   "season": "2025-2026",
   "league": "Turkish BSL",
   "total_games": 7,
-  "played": 5,
-  "upcoming": 2,
+  "played": 6,
+  "upcoming": 1,
   "games": [
     {
       "game_id": "2384692",
@@ -87,36 +87,36 @@
       "result": null
     },
     {
-      "game_id": "2571223",
-      "date": "2026-10-09",
-      "time": "15:00:00",
+      "game_id": "2571219",
+      "date": "2026-10-10",
+      "time": "17:30:00",
       "round": "3",
-      "home_team": "Trabzonspor BK",
-      "away_team": "Bordo Sportif",
-      "home_score": null,
-      "away_score": null,
-      "played": false,
-      "venue": "Hayri Gür Arena",
+      "home_team": "Çayirova",
+      "away_team": "Fenerbahçe Basketbol",
+      "home_score": 85,
+      "away_score": 100,
+      "played": true,
+      "venue": "",
       "city": "",
       "season": "2026-2027",
-      "status": "NS",
-      "result": "Trabzonspor BK Quarters:<br>    <br><br>Bordo Sportif Quarters:<br>"
+      "status": "FT",
+      "result": " Çayirova Quarters:<br>16 23 27 19 <br><br>Fenerbahçe Basketbol Quarters:<br>23 32 22 23 "
     },
     {
-      "game_id": "2571218",
-      "date": "2026-10-10",
-      "time": "10:00:00",
+      "game_id": "2571224",
+      "date": "2026-10-11",
+      "time": "15:00:00",
       "round": "3",
-      "home_team": "Bahçeşehir Koleji SK",
-      "away_team": "Karşıyaka Basket",
+      "home_team": "Türk Telekom BK",
+      "away_team": "Besiktas Basketbol",
       "home_score": null,
       "away_score": null,
       "played": false,
-      "venue": "Sinan Erdem Dome",
+      "venue": "Ankara Arena",
       "city": "",
       "season": "2026-2027",
       "status": "NS",
-      "result": " Bahçeşehir Koleji SK Quarters:<br>    <br><br>Karşıyaka Basket Quarters:<br>    "
+      "result": " Türk Telekom BK Quarters:<br>    <br><br>Besiktas Basketbol Quarters:<br>    "
     }
   ]
 }
